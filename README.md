@@ -14,3 +14,9 @@
 
   - [THE MIT LICENSE](LICENSE.md#the-mit-license)
   - [FEATURES](docs/feature-description.md#features)
+
+----
+
+
+
+>   **© 2023 WANG YUCAI. LICENSED UNDER THE MIT LICENSE. SEE LICENSE FILE IN THE PROJECT ROOT FOR FULL LICENSE INFORMATION.**
