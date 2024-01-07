@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>Niacomsoft.CoreLib</AssemblyName>
+    <RootNamespace>Niacomsoft</RootNamespace>
+    <PackageTags>$(PackageTags); corelib</PackageTags>
+  </PropertyGroup>
+</Project>

@@ -3,12 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLib", "CoreLib\CoreLib.csproj", "{0FA47268-25C0-40E1-B7C3-C387DEB2B041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Niacomsoft.CoreLib", "Niacomsoft.CoreLib", "{1A66FB72-025A-4475-8563-BE6370AF3A0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FA47268-25C0-40E1-B7C3-C387DEB2B041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA47268-25C0-40E1-B7C3-C387DEB2B041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA47268-25C0-40E1-B7C3-C387DEB2B041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA47268-25C0-40E1-B7C3-C387DEB2B041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FA47268-25C0-40E1-B7C3-C387DEB2B041} = {1A66FB72-025A-4475-8563-BE6370AF3A0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA5F6711-2336-4F2E-958D-100E3CE28B75}
 	EndGlobalSection
 EndGlobal

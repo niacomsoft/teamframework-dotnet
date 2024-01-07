@@ -27,7 +27,7 @@ insert_final_newline = false
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
-file_header_template = // © 2024 WANG YUCAI. LICENSED UNDER THE MIT LICENSE. SEE LICENSE FILE IN THE PROJECT ROOT FOR FULL LICENSE INFORMATION.
+file_header_template = © 2024 WANG YUCAI. LICENSED UNDER THE MIT LICENSE. SEE LICENSE FILE IN THE PROJECT ROOT FOR FULL LICENSE INFORMATION.
 
 # this. and Me. preferences
 dotnet_style_qualification_for_event = false:silent
