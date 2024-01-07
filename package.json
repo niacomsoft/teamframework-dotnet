@@ -1,0 +1,30 @@
+{
+  "name": "@niacomsoft/teamframework-dotnet",
+  "version": "0.0.0",
+  "description": "Team Development Framework for Microsoft.NET !",
+  "scripts": {
+    "release:patch-dryrun": "standard-version -r patch -i CHANGELOG.md --dry-run",
+    "release:patch": "standard-version -r patch -i CHANGELOG.md",
+    "release:minor-dryrun": "standard-version -r minor -i CHANGELOG.md --dry-run",
+    "release:minor": "standard-version -r minor -i CHANGELOG.md",
+    "release:major-dryrun": "standard-version -r major -i CHANGELOG.md --dry-run",
+    "release:major": "standard-version -r major -i CHANGELOG.md",
+    "dotnet:release": "dotnet tool restore && dotnet tool run nbgv prepare-release --project ./src/"
+  },
+  "keywords": [
+    "niacomsoft",
+    "team-framework",
+    "library",
+    "dotnet",
+    "dotnet-core",
+    "dotnet-framework"
+  ],
+  "author": {
+    "name": "Wang Yucai",
+    "email": "netowls-studio@outlook.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}

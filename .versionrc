@@ -1,0 +1,51 @@
+{
+  "types": [
+    {
+      "type": "feat",
+      "section": "新功能 NEW FEATURE"
+    },
+    {
+      "type": "fix",
+      "section": "修复 BUG FIXED"
+    },
+    {
+      "type": "docs",
+      "section": "文档变更 DOCUMENTATION"
+    },
+    {
+      "type": "refactor",
+      "section": "代码重构 REFACTOR"
+    },
+    {
+      "type": "test",
+      "section": "测试用例变更 TEST CASE"
+    },
+    {
+      "type": "perf",
+      "section": "新能优化 PERFORMANCE OPTIMIZE"
+    },
+    {
+      "type": "revert",
+      "section": "回退 REVERT"
+    },
+    {
+      "type": "ci",
+      "section": "持续集成和部署 CI & CD"
+    },
+    {
+      "type": "chore",
+      "section": "其他 CHORE"
+    },
+    {
+      "type": "style",
+      "section": "代码样式变更 CODE STYLE"
+    },
+    {
+      "type": "build",
+      "section": "构建 BUILD"
+    }
+  ],
+  "preMajor": true,
+  "header": "# CHNAGELOG",
+  "releaseCommitMessageFormat": "chore: 发布 v{{currentTag}} 版本！"
+}
