@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/niacomsoft/teamframework-dotnet</RepositoryUrl>
     <PackageTags>niacomsoft; team-framework; dotnet; dotnet-core; dotnet-framework</PackageTags>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,5 +19,12 @@
                       Version="3.7.48-alpha"
                       PrivateAssets="all"
                       Condition="!Exists('packages.config')" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
