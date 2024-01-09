@@ -54,12 +54,9 @@ namespace Niacomsoft.Resources
         [SuppressMessage("Design", "Ex0200:Member is documented as throwing exception not documented on member in base or interface type", Justification = "<挂起>")]
         public virtual string GetString(string name, CultureInfo culture)
         {
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                throw new ArgumentException(Strings.ResourceStringResolver_not_support_resource_name);
-            }
-
-            return culture is null ? ResourceManager.GetString(name) : ResourceManager.GetString(name, culture);
+            return string.IsNullOrWhiteSpace(name)
+                ? throw new ArgumentException(Strings.ResourceStringResolver_not_support_resource_name)
+                : culture is null ? ResourceManager.GetString(name) : ResourceManager.GetString(name, culture);
         }
 
         /// <inheritdoc />
