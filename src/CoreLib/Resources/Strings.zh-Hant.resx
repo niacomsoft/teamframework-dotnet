@@ -97,7 +97,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Exception_default_message" xml:space="preserve">
-    <value>應用程式引發了一個未處理的異常。</value>
+  <data name="ResourceStringResolver_not_support_resourcemanager" xml:space="preserve">
+    <value>“System.Resources.ResourceManager 對象實例”是必需的。</value>
+  </data>
+  <data name="ResourceStringResolver_not_support_resource_name" xml:space="preserve">
+    <value>資源名稱是必需的。 不可以為 null、“String.Empty” 或者全部為空白符。</value>
   </data>
 </root>

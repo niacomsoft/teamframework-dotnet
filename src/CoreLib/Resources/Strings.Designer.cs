@@ -61,11 +61,20 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
-        ///   查找类似 The application threw an unhandled exception. 的本地化字符串。
+        ///   查找类似 The resource name is required. It should not be null, &quot;String.Empty&quot;, or all whitespace. 的本地化字符串。
         /// </summary>
-        internal static string Exception_default_message {
+        internal static string ResourceStringResolver_not_support_resource_name {
             get {
-                return ResourceManager.GetString("Exception_default_message", resourceCulture);
+                return ResourceManager.GetString("ResourceStringResolver_not_support_resource_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 System.Resources.ResourceManager Object Instance is required. 的本地化字符串。
+        /// </summary>
+        internal static string ResourceStringResolver_not_support_resourcemanager {
+            get {
+                return ResourceManager.GetString("ResourceStringResolver_not_support_resourcemanager", resourceCulture);
             }
         }
     }

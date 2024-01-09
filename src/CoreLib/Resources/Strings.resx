@@ -97,7 +97,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Exception_default_message" xml:space="preserve">
-    <value>The application threw an unhandled exception.</value>
+  <data name="ResourceStringResolver_not_support_resourcemanager" xml:space="preserve">
+    <value>System.Resources.ResourceManager Object Instance is required.</value>
+  </data>
+  <data name="ResourceStringResolver_not_support_resource_name" xml:space="preserve">
+    <value>The resource name is required. It should not be null, "String.Empty", or all whitespace.</value>
   </data>
 </root>
