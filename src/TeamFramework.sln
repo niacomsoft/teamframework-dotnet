@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLib", "CoreLib\CoreLib.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Niacomsoft.CoreLib", "Niacomsoft.CoreLib", "{1A66FB72-025A-4475-8563-BE6370AF3A0E}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Private.CoreLib", "Private.CoreLib\Private.CoreLib\Private.CoreLib.shproj", "{FC2A6C11-DA4E-4AF1-8AC7-BDD96E0EFDC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +25,13 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0FA47268-25C0-40E1-B7C3-C387DEB2B041} = {1A66FB72-025A-4475-8563-BE6370AF3A0E}
+		{FC2A6C11-DA4E-4AF1-8AC7-BDD96E0EFDC8} = {1A66FB72-025A-4475-8563-BE6370AF3A0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA5F6711-2336-4F2E-958D-100E3CE28B75}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Private.CoreLib\Private.CoreLib\Private.CoreLib.projitems*{0fa47268-25c0-40e1-b7c3-c387deb2b041}*SharedItemsImports = 5
+		Private.CoreLib\Private.CoreLib\Private.CoreLib.projitems*{fc2a6c11-da4e-4af1-8ac7-bdd96e0efdc8}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

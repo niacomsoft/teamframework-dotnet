@@ -2,7 +2,7 @@
   <PropertyGroup>
     <BaseOutputPath>..\..\Build\</BaseOutputPath>
     <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
     <Authors>Wang Yucai</Authors>
     <Product>TeamFramework™</Product>
