@@ -9,6 +9,9 @@
     <Import_RootNamespace>Niacomsoft</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggingLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\IResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\ResourceStringResolver.cs" />
