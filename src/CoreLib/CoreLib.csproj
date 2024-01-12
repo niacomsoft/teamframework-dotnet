@@ -5,5 +5,5 @@
     <RootNamespace>Niacomsoft</RootNamespace>
     <PackageTags>$(PackageTags); corelib</PackageTags>
   </PropertyGroup>
-  <Import Project="..\Private.CoreLib\Private.CoreLib\Private.CoreLib.projitems" Label="Shared" />
+  <Import Project="..\Private.CoreLib\Private.CoreLib.projitems" Label="Shared" />
 </Project>
