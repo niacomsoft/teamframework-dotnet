@@ -5,9 +5,7 @@ using System.Resources;
 
 namespace Niacomsoft.Resources
 {
-    /// <summary>
-    /// 定义了解析资源字符串的接口。
-    /// </summary>
+    /// <summary> 定义了解析资源字符串的接口。 </summary>
     public interface IResourceStringResolver
     {
         /// <summary>
@@ -18,9 +16,7 @@ namespace Niacomsoft.Resources
         /// <seealso cref="ResourceManager" />
         ResourceManager ResourceManager { get; }
 
-        /// <summary>
-        /// 获取特定文化区域的资源字符串。
-        /// </summary>
+        /// <summary> 获取特定文化区域的资源字符串。 </summary>
         /// <param name="name"> 资源名称。 </param>
         /// <param name="culture">
         /// 特定的文化区域。
@@ -30,9 +26,7 @@ namespace Niacomsoft.Resources
         /// <seealso cref="CultureInfo" />
         string GetString(string name, CultureInfo culture);
 
-        /// <summary>
-        /// 获取特定文化区域的资源字符串。
-        /// </summary>
+        /// <summary> 获取特定文化区域的资源字符串。 </summary>
         /// <param name="name"> 资源名称。 </param>
         /// <returns> 资源字符串。 </returns>
         /// <seealso cref="GetString(string, CultureInfo)" />

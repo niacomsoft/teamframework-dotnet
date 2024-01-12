@@ -8,15 +8,11 @@ using System.Resources;
 
 namespace Niacomsoft.Resources
 {
-    /// <summary>
-    /// 提供了解析资源字符串相关的方法。
-    /// </summary>
+    /// <summary> 提供了解析资源字符串相关的方法。 </summary>
     /// <seealso cref="IResourceStringResolver" />
     public class ResourceStringResolver : IResourceStringResolver
     {
-        /// <summary>
-        /// 初始化 <see cref="ResourceStringResolver" /> 类的新实例。
-        /// </summary>
+        /// <summary> 初始化 <see cref="ResourceStringResolver" /> 类的新实例。 </summary>
         /// <param name="baseName"> 不包含文件扩展名的资源文件基础名称。 </param>
         /// <param name="target">
         /// 包含资源的程序集。
@@ -28,9 +24,7 @@ namespace Niacomsoft.Resources
         {
         }
 
-        /// <summary>
-        /// 初始化 <see cref="ResourceStringResolver" /> 类的新实例。
-        /// </summary>
+        /// <summary> 初始化 <see cref="ResourceStringResolver" /> 类的新实例。 </summary>
         /// <param name="resourceMgr">
         /// 管理特定文化区域资源字符串的方法。
         /// <para> <see cref="ResourceManager" /> 类型的对象实例。 </para>
