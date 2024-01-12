@@ -28,7 +28,7 @@ namespace Niacomsoft.Diagnostics
         /// <seealso cref="DebuggingLevel" />
         private static void InternalWriteLine(string message, string category, DebuggingLevel level)
         {
-            if (!string.IsNullOrWhiteSpace(message))
+            if (!string.IsNullOrEmpty(message))
             {
                 if (level == DebuggingLevel.Debug)
                 {
@@ -57,7 +57,7 @@ namespace Niacomsoft.Diagnostics
         /// <param name="category"> 调试信息类别。 </param>
         /// <returns> 完整的调试信息。 </returns>
         private static string BuildDebuggingMessage(string message, string category)
-            => $"[{(string.IsNullOrWhiteSpace(category) ? DefaultCategoryName : category.Trim())}]  {message}";
+            => $"[{(string.IsNullOrEmpty(category) ? DefaultCategoryName : category.Trim())}]  {message}";
 
         /// <summary> 输出调试诊断信息。 </summary>
         /// <param name="message"> 调试信息。 </param>

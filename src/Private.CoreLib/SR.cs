@@ -45,7 +45,13 @@ namespace Niacomsoft
         /// <seealso cref="CultureInfo" />
         [SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
         public static string GetString(string name, CultureInfo culture)
-            => BuiltInResourceStringResolver.Default.Value.GetString(name, culture);
+        {
+#if NET45_OR_GREATER || NETSTANDARD || NETCOREAPP || NET
+            return BuiltInResourceStringResolver.Default.Value.GetString(name, culture);
+#else
+            return BuiltInResourceStringResolver.Default.GetString(name, culture);
+#endif
+        }
 
         /// <summary> 获取特定文化区域的资源字符串。 </summary>
         /// <param name="name"> 资源名称。 </param>
@@ -53,6 +59,12 @@ namespace Niacomsoft
         /// <seealso cref="M:Niacomsoft.Resources.IResourceStringResolver.GetString(System.String,System.Globalization.CultureInfo)" />
         [SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
         public static string GetString(string name)
-            => BuiltInResourceStringResolver.Default.Value.GetString(name);
+        {
+#if NET45_OR_GREATER || NETSTANDARD || NETCOREAPP || NET
+            return BuiltInResourceStringResolver.Default.Value.GetString(name);
+#else
+            return BuiltInResourceStringResolver.Default.GetString(name);
+#endif
+        }
     }
 }

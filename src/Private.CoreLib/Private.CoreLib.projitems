@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggingLevel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EmptyComparisonOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\IResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\ResourceStringResolver.cs" />
@@ -22,6 +23,14 @@
       <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)SR.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.DateTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Decimal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Float.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Double.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int16.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int64.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int32.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Strings.en-US.resx" />
