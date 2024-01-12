@@ -795,3 +795,6 @@ MigrationBackup/
 
 # PNPM
 .pnpm-store/
+
+# Build
+[Bb]uild/

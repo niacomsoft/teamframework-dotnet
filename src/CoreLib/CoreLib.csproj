@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45; net20;</TargetFrameworks>
+    <AssemblyName>Niacomsoft.CoreLib</AssemblyName>
+    <RootNamespace>Niacomsoft</RootNamespace>
+    <PackageTags>$(PackageTags); corelib</PackageTags>
+  </PropertyGroup>
+  <Import Project="..\Private.CoreLib\Private.CoreLib.projitems" Label="Shared" />
+</Project>
