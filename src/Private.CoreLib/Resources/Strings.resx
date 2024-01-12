@@ -103,4 +103,10 @@
   <data name="ResourceStringResolver_not_support_resource_name" xml:space="preserve">
     <value>The resource name is required. It should not be null, "String.Empty", or all whitespace.</value>
   </data>
+  <data name="ArgumentNullException_default_message" xml:space="preserve">
+    <value>This method may be missing a required parameter value.</value>
+  </data>
+  <data name="ArgumentNullException_with_parameter_name" xml:space="preserve">
+    <value>This method may be missing a required parameter value: {0}.</value>
+  </data>
 </root>

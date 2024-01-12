@@ -103,4 +103,10 @@
   <data name="ResourceStringResolver_not_support_resource_name" xml:space="preserve">
     <value>资源名称是必需的。不可以为 null、"String.Empty" 或者全部为空白符。</value>
   </data>
+  <data name="ArgumentNullException_default_message" xml:space="preserve">
+    <value>此方法可能缺少了必需的参数值。</value>
+  </data>
+  <data name="ArgumentNullException_with_parameter_name" xml:space="preserve">
+    <value>此方法可能缺少了必需的参数值：{0}。</value>
+  </data>
 </root>

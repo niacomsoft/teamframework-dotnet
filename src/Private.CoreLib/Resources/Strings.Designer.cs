@@ -61,6 +61,24 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 This method may be missing a required parameter value. 的本地化字符串。
+        /// </summary>
+        internal static string ArgumentNullException_default_message {
+            get {
+                return ResourceManager.GetString("ArgumentNullException_default_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 This method may be missing a required parameter value: {0}. 的本地化字符串。
+        /// </summary>
+        internal static string ArgumentNullException_with_parameter_name {
+            get {
+                return ResourceManager.GetString("ArgumentNullException_with_parameter_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 The resource name is required. It should not be null, &quot;String.Empty&quot;, or all whitespace. 的本地化字符串。
         /// </summary>
         internal static string ResourceStringResolver_not_support_resource_name {
