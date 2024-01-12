@@ -23,6 +23,8 @@
       <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)SR.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Text\DefaultEncoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Array.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Decimal.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Float.cs" />
