@@ -14,6 +14,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggingLevel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EmitData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmptyComparisonOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
