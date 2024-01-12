@@ -109,4 +109,7 @@
   <data name="ArgumentNullException_with_parameter_name" xml:space="preserve">
     <value>This method may be missing a required parameter value: {0}.</value>
   </data>
+  <data name="ArgumentNullException_with_method_and_parameter_name" xml:space="preserve">
+    <value>The method "{0}" may be missing the required parameter value: {1}.</value>
+  </data>
 </root>

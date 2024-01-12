@@ -70,6 +70,15 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 The method &quot;{0}&quot; may be missing the required parameter value: {1}. 的本地化字符串。
+        /// </summary>
+        internal static string ArgumentNullException_with_method_and_parameter_name {
+            get {
+                return ResourceManager.GetString("ArgumentNullException_with_method_and_parameter_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 This method may be missing a required parameter value: {0}. 的本地化字符串。
         /// </summary>
         internal static string ArgumentNullException_with_parameter_name {

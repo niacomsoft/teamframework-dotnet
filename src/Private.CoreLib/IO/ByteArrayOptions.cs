@@ -2,8 +2,6 @@
 
 using System;
 
-using Niacomsoft.Utilities;
-
 namespace Niacomsoft.IO
 {
     /// <summary> 提供了字节 <see cref="byte" /> 数组配置选项相关的方法。 密闭的，不可以从此类型派生。 </summary>
@@ -34,10 +32,7 @@ namespace Niacomsoft.IO
         /// <exception cref="OverflowException"> 当访问 <c> bytes.Length </c> 属性时，可能引发此类型的异常。 </exception>
         public static ByteArrayOptions FromByteArray(byte[] bytes)
         {
-            if (AssertUtilities.IsNull(bytes))
-            {
-                throw new ArgumentNullException(SR.GetString("ArgumentNullException_default_message"));
-            }
+            Guard.ArgumentNull(bytes, nameof(bytes), nameof(FromByteArray));
             return new ByteArrayOptions(0, bytes.Length);
         }
     }
