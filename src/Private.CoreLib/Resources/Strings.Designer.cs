@@ -61,6 +61,33 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 Invalid method parameter value. 的本地化字符串。
+        /// </summary>
+        internal static string ArgumentException_default_message {
+            get {
+                return ResourceManager.GetString("ArgumentException_default_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Invalid method ({0}) parameter value. The parameter name is {1}. 的本地化字符串。
+        /// </summary>
+        internal static string ArgumentException_with_method_and_parameter_name {
+            get {
+                return ResourceManager.GetString("ArgumentException_with_method_and_parameter_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Invalid method parameter value. The parameter name is {0}. 的本地化字符串。
+        /// </summary>
+        internal static string ArgumentException_with_parameter_name {
+            get {
+                return ResourceManager.GetString("ArgumentException_with_parameter_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 This method may be missing a required parameter value. 的本地化字符串。
         /// </summary>
         internal static string ArgumentNullException_default_message {

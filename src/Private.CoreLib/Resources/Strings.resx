@@ -112,4 +112,13 @@
   <data name="ArgumentNullException_with_method_and_parameter_name" xml:space="preserve">
     <value>The method "{0}" may be missing the required parameter value: {1}.</value>
   </data>
+  <data name="ArgumentException_default_message" xml:space="preserve">
+    <value>Invalid method parameter value.</value>
+  </data>
+  <data name="ArgumentException_with_parameter_name" xml:space="preserve">
+    <value>Invalid method parameter value. The parameter name is {0}.</value>
+  </data>
+  <data name="ArgumentException_with_method_and_parameter_name" xml:space="preserve">
+    <value>Invalid method ({0}) parameter value. The parameter name is {1}.</value>
+  </data>
 </root>
