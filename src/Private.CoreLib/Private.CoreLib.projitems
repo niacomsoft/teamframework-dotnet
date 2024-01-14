@@ -16,6 +16,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmitData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmptyComparisonOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs`1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
