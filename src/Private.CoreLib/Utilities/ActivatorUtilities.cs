@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Niacomsoft
+namespace Niacomsoft.Utilities
 {
     /// <summary> 提供了动态创建对象实例相关的辅助方法。 </summary>
     public static class ActivatorUtilities

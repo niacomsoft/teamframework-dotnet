@@ -9,7 +9,7 @@
     <Import_RootNamespace>Niacomsoft</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)ActivatorUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\%40i\teamfx-dotnet\src\Private.CoreLib\Utilities\ActivatorUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
@@ -44,6 +44,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int64.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Decimal.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Single.cs" />
