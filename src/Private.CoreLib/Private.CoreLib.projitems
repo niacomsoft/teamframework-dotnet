@@ -37,13 +37,20 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Array.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Decimal.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Float.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Single.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Double.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int16.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int64.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.DateTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Decimal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Single.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Double.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int16.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int64.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int32.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Strings.en-US.resx" />

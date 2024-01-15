@@ -9,7 +9,7 @@ using Niacomsoft.Text;
 namespace Niacomsoft.Utilities
 {
     /// <summary> 提供了 <see cref="string" /> 相关的方法。 </summary>
-    public static class StringUtilities
+    public static partial class StringUtilities
     {
         /// <summary>
         /// 使用默认的编码程序 <see cref="DefaultEncoding.Value" /> 获取字符串 <paramref name="s" /> 的字节数组。
