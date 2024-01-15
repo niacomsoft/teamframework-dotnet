@@ -9,6 +9,7 @@
     <Import_RootNamespace>Niacomsoft</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ActivatorUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
