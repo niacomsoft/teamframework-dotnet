@@ -45,6 +45,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int32.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.Module.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Decimal.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Single.cs" />
