@@ -112,4 +112,13 @@
   <data name="ArgumentNullException_with_method_and_parameter_name" xml:space="preserve">
     <value>方法 “{0}” 可能缺少了必需的参数值：{1}。</value>
   </data>
+  <data name="ArgumentException_default_message" xml:space="preserve">
+    <value>无效的方法参数值。</value>
+  </data>
+  <data name="ArgumentException_with_parameter_name" xml:space="preserve">
+    <value>无效的方法参数值。参数名称为：“{0}”。</value>
+  </data>
+  <data name="ArgumentException_with_method_and_parameter_name" xml:space="preserve">
+    <value>无效的方法 （{0}） 参数值。参数名称为：“{1}”。</value>
+  </data>
 </root>

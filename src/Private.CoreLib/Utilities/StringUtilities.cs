@@ -9,7 +9,7 @@ using Niacomsoft.Text;
 namespace Niacomsoft.Utilities
 {
     /// <summary> 提供了 <see cref="string" /> 相关的方法。 </summary>
-    public static class StringUtilities
+    public static partial class StringUtilities
     {
         /// <summary>
         /// 使用默认的编码程序 <see cref="DefaultEncoding.Value" /> 获取字符串 <paramref name="s" /> 的字节数组。
@@ -122,5 +122,19 @@ namespace Niacomsoft.Utilities
 
             return encoding.GetString(input, decodeOptions.Index, decodeOptions.Count);
         }
+
+        /// <summary> 当字符串 <paramref name="s" /> 等于 <see langword="null" />、 <see cref="string.Empty" /> 或全为空格符时，将返回 <paramref name="default" />。 </summary>
+        /// <param name="s"> 需要校验的字符串。 </param>
+        /// <param name="default"> 当字符串 <paramref name="s" /> 等于 <see langword="null" />、 <see cref="string.Empty" /> 或全为空格符时需返回的默认值。 </param>
+        /// <param name="options">
+        /// 空白字符串比较方式。
+        /// <para> <see cref="EmptyComparisonOptions" /> 中的一个值。 </para>
+        /// </param>
+        /// <returns> 当字符串 <paramref name="s" /> 等于 <see langword="null" />、 <see cref="string.Empty" /> 或全为空格符时，将返回 <paramref name="default" />。 </returns>
+        /// <seealso cref="AssertUtilities" />
+        /// <seealso cref="AssertUtilities.IsEmpty(string, EmptyComparisonOptions)" />
+        /// <seealso cref="EmptyComparisonOptions" />
+        public static string IfEmpty(string s, string @default, EmptyComparisonOptions options = EmptyComparisonOptions.Default)
+            => AssertUtilities.IsEmpty(s, options) ? @default : s;
     }
 }

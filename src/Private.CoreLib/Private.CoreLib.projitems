@@ -9,12 +9,18 @@
     <Import_RootNamespace>Niacomsoft</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\%40i\teamfx-dotnet\src\Private.CoreLib\Utilities\ActivatorUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggingLevel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EmitData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmptyComparisonOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs`1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
@@ -27,18 +33,35 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Security\Authentication\IPasswordGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\Authentication\PasswordGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\IRandomAlgorithms.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\IRandomAlgorithmsFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\ISecretKeyAlphabet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RandomAlgorithms.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RandomAlgorithmsFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\SecretKeyAlphabet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SR.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Text\DefaultEncoding.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Array.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Decimal.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Float.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Single.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Double.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int16.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int64.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.Module.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.DateTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Decimal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Single.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Double.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int16.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int64.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int32.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Strings.en-US.resx" />

@@ -15,14 +15,15 @@ namespace Niacomsoft
         /// <param name="argValue"> 需要校验的参数值。 </param>
         /// <param name="argName"> 参数名称。 </param>
         /// <param name="methodName"> 方法名称。 </param>
-        /// <exception cref="ArgumentNullException"> </exception>
         public static void ArgumentNull(object argValue, string argName = null, string methodName = null)
         {
             if (AssertUtilities.IsNull(argValue))
             {
                 if (AssertUtilities.IsEmpty(argName, EmptyComparisonOptions.NullOrWhitespace))
                 {
+#pragma warning disable Ex0100 // Member may throw undocumented exception
                     throw new ArgumentNullException(nameof(argValue), SR.GetString("ArgumentNullException_default_message"));
+#pragma warning restore Ex0100 // Member may throw undocumented exception
                 }
                 else if (AssertUtilities.IsEmpty(methodName, EmptyComparisonOptions.NullOrWhitespace))
                 {
