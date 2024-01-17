@@ -33,6 +33,7 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Security\IRandomAlgorithms.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Security\ISecretKeyAlphabet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Security\SecretKeyAlphabet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SR.cs" />
