@@ -12,7 +12,7 @@ namespace Niacomsoft.Security
     public class RandomAlgorithms : IRandomAlgorithms
     {
         /// <summary> 默认的最小种子值。 </summary>
-        private const int MinValue = 0x20;
+        public const int MinValue = 0x20;
 
         /// <summary> 初始化 <see cref="RandomAlgorithms" /> 类的新实例。 </summary>
         /// <param name="maxValue"> 最大种子值。 </param>
