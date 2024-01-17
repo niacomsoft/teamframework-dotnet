@@ -35,6 +35,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Security\IRandomAlgorithms.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Security\ISecretKeyAlphabet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RandomAlgorithms.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Security\SecretKeyAlphabet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SR.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Text\DefaultEncoding.cs" />
