@@ -33,6 +33,8 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Security\Authentication\IPasswordGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\Authentication\PasswordGenerator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Security\IRandomAlgorithms.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Security\IRandomAlgorithmsFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Security\ISecretKeyAlphabet.cs" />
