@@ -121,4 +121,10 @@
   <data name="ArgumentException_with_method_and_parameter_name" xml:space="preserve">
     <value>无效的方法 （{0}） 参数值。参数名称为：“{1}”。</value>
   </data>
+  <data name="InvalidPortException_default_message" xml:space="preserve">
+    <value>无效的网络通信端口号。</value>
+  </data>
+  <data name="InvalidPortException_with_port" xml:space="preserve">
+    <value>无效的网络通信端口号 “{0}”。</value>
+  </data>
 </root>

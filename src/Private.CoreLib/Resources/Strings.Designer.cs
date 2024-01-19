@@ -115,6 +115,24 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 Invalid network communication port number. 的本地化字符串。
+        /// </summary>
+        internal static string InvalidPortException_default_message {
+            get {
+                return ResourceManager.GetString("InvalidPortException_default_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Invalid network communication port number &quot;{0}&quot;. 的本地化字符串。
+        /// </summary>
+        internal static string InvalidPortException_with_port {
+            get {
+                return ResourceManager.GetString("InvalidPortException_with_port", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 The resource name is required. It should not be null, &quot;String.Empty&quot;, or all whitespace. 的本地化字符串。
         /// </summary>
         internal static string ResourceStringResolver_not_support_resource_name {

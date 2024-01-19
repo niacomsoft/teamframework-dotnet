@@ -121,4 +121,10 @@
   <data name="ArgumentException_with_method_and_parameter_name" xml:space="preserve">
     <value>無效的方法 （{0}） 參數值。 參數名稱為：「{1}」。</value>
   </data>
+  <data name="InvalidPortException_default_message" xml:space="preserve">
+    <value>無效的網路通信埠號。</value>
+  </data>
+  <data name="InvalidPortException_with_port" xml:space="preserve">
+    <value>無效的網路通信埠號 「{0}」。</value>
+  </data>
 </root>

@@ -25,6 +25,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\IResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\ResourceStringResolver.cs" />
