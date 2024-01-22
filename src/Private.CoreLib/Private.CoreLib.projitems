@@ -24,8 +24,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGuidId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IInt32TypedId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IInt64TypedId.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IStringTypedId.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
@@ -46,6 +51,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Security\SecretKeyAlphabet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SR.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Text\DefaultEncoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FalseValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TrueValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Array.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Decimal.cs" />
