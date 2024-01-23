@@ -25,10 +25,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\IResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\ResourceStringResolver.cs" />
