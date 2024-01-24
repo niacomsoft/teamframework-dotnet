@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\%40i\teamfx-dotnet\src\Private.CoreLib\Utilities\ActivatorUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggingLevel.cs" />
@@ -24,7 +25,16 @@
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IContextualData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.Static.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\IResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\ResourceStringResolver.cs" />
@@ -43,6 +53,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Security\SecretKeyAlphabet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SR.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Text\DefaultEncoding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FalseValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TrueValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Array.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Decimal.cs" />
@@ -53,7 +65,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int32.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.Module.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.MemberInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Decimal.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Single.cs" />

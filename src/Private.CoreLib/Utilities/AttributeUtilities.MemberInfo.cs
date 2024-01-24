@@ -10,39 +10,45 @@ namespace Niacomsoft.Utilities
 {
     public static partial class AttributeUtilities
     {
-        /// <summary> 从模块 <see cref="Module" /> 中获取 <paramref name="attributeType" /> 类型的注解。 </summary>
+        /// <summary> 从模块 <see cref="MemberInfo" /> 中获取 <paramref name="attributeType" /> 类型的注解。 </summary>
         /// <param name="module">
         /// 模块。
-        /// <para> <see cref="Module" /> 类型的对象实例。 </para>
+        /// <para> <see cref="MemberInfo" /> 类型的对象实例。 </para>
         /// </param>
         /// <param name="attributeType"> 派生自 <see cref="Attribute" /> 的类型。 </param>
         /// <param name="inherit"> 是否搜索类型继承链。 </param>
         /// <returns> 派生自 <see cref="Attribute" /> 类型的对象实例。 </returns>
-        /// <seealso cref="Module" />
+        /// <seealso cref="MemberInfo" />
         /// <seealso cref="Attribute" />
-        /// <seealso cref="Attribute.GetCustomAttribute(Module, Type, bool)" />
+        /// <seealso cref="Attribute.GetCustomAttribute(MemberInfo, Type, bool)" />
         /// <seealso cref="Type" />
         /// <exception cref="AmbiguousMatchException">
-        /// 当调用 <see cref="Attribute.GetCustomAttribute(Module, Type, bool)" /> 方法时，可能引发此类型的异常。
+        /// 当调用 <see cref="Attribute.GetCustomAttribute(MemberInfo, Type, bool)" /> 方法时，可能引发此类型的异常。
         /// </exception>
-        public static Attribute GetCustomAttribute(Module module, Type attributeType, bool inherit = false)
+        /// <exception cref="NotSupportedException">
+        /// 当调用 <see cref="Attribute.GetCustomAttribute(MemberInfo, Type, bool)" /> 方法时，可能引发此类型的异常。
+        /// </exception>
+        /// <exception cref="TypeLoadException">
+        /// 当调用 <see cref="Attribute.GetCustomAttribute(MemberInfo, Type, bool)" /> 方法时，可能引发此类型的异常。
+        /// </exception>
+        public static Attribute GetCustomAttribute(MemberInfo module, Type attributeType, bool inherit = false)
         {
             Guard.ArgumentNull(module, nameof(module), nameof(GetCustomAttribute));
             Guard.ArgumentNull(attributeType, nameof(attributeType), nameof(GetCustomAttribute));
             return Attribute.GetCustomAttribute(module, attributeType, inherit);
         }
 
-        /// <summary> 从模块 <see cref="Module" /> 中获取 <typeparamref name="TAttribute" /> 类型的注解。 </summary>
+        /// <summary> 从模块 <see cref="MemberInfo" /> 中获取 <typeparamref name="TAttribute" /> 类型的注解。 </summary>
         /// <typeparam name="TAttribute"> 派生自 <see cref="Attribute" /> 的类型。 </typeparam>
         /// <param name="module">
         /// 模块。
-        /// <para> <see cref="Module" /> 类型的对象实例。 </para>
+        /// <para> <see cref="MemberInfo" /> 类型的对象实例。 </para>
         /// </param>
         /// <param name="inherit"> 是否搜索类型继承链。 </param>
         /// <returns> <typeparamref name="TAttribute" /> 类型的对象实例。 </returns>
-        /// <seealso cref="GetCustomAttribute(Module, Type, bool)" />
+        /// <seealso cref="GetCustomAttribute(MemberInfo, Type, bool)" />
         [SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
-        public static TAttribute GetCustomAttribute<TAttribute>(Module module, bool inherit = false) where TAttribute : Attribute
+        public static TAttribute GetCustomAttribute<TAttribute>(MemberInfo module, bool inherit = false) where TAttribute : Attribute
             => GetCustomAttribute(module, typeof(TAttribute), inherit) as TAttribute;
 
         /// <summary>
@@ -51,7 +57,7 @@ namespace Niacomsoft.Utilities
         /// </summary>
         /// <param name="module">
         /// 模块。
-        /// <para> <see cref="Module" /> 类型的对象实例。 </para>
+        /// <para> <see cref="MemberInfo" /> 类型的对象实例。 </para>
         /// </param>
         /// <param name="attributeType"> 派生自 <see cref="Attribute" /> 的类型。 </param>
         /// <param name="inherit"> 是否搜索类型继承链。 </param>
@@ -63,11 +69,11 @@ namespace Niacomsoft.Utilities
         /// 当从模块 <paramref name="module" /> 中获取 <paramref name="attributeType" /> 类型的注解不等于 <see langword="null" /> 时，返回
         /// <see langword="true" />；否则返回 <see langword="false" />。
         /// </returns>
-        /// <seealso cref="Module" />
+        /// <seealso cref="MemberInfo" />
         /// <seealso cref="Attribute" />
-        /// <seealso cref="GetCustomAttribute(Module, Type, bool)" />
+        /// <seealso cref="GetCustomAttribute(MemberInfo, Type, bool)" />
         /// <seealso cref="Type" />
-        public static bool TryGetCustomAttribute(Module module, Type attributeType, bool inherit, out Attribute attribute)
+        public static bool TryGetCustomAttribute(MemberInfo module, Type attributeType, bool inherit, out Attribute attribute)
         {
             try
             {
@@ -89,7 +95,7 @@ namespace Niacomsoft.Utilities
         /// <typeparam name="TAttribute"> 派生自 <see cref="Attribute" /> 的类型。 </typeparam>
         /// <param name="module">
         /// 模块。
-        /// <para> <see cref="Module" /> 类型的对象实例。 </para>
+        /// <para> <see cref="MemberInfo" /> 类型的对象实例。 </para>
         /// </param>
         /// <param name="inherit"> 是否搜索类型继承链。 </param>
         /// <param name="attribute">
@@ -100,10 +106,10 @@ namespace Niacomsoft.Utilities
         /// 当从模块 <paramref name="module" /> 中获取 <typeparamref name="TAttribute" /> 类型的注解不等于 <see langword="null" /> 时，返回
         /// <see langword="true" />；否则返回 <see langword="false" />。
         /// </returns>
-        /// <seealso cref="TryGetCustomAttribute(Module, Type, bool, out Attribute)" />
-        /// <seealso cref="Module" />
+        /// <seealso cref="TryGetCustomAttribute(MemberInfo, Type, bool, out Attribute)" />
+        /// <seealso cref="MemberInfo" />
         /// <seealso cref="Attribute" />
-        public static bool TryGetCustomAttribute<TAttribute>(Module module, bool inherit, out TAttribute attribute) where TAttribute : Attribute
+        public static bool TryGetCustomAttribute<TAttribute>(MemberInfo module, bool inherit, out TAttribute attribute) where TAttribute : Attribute
         {
             attribute = default;
             if (TryGetCustomAttribute(module, typeof(TAttribute), inherit, out Attribute attr))
