@@ -32,6 +32,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.Static.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\IResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\ResourceStringResolver.cs" />
@@ -62,7 +63,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AssertUtilities.Int32.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.Module.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\AttributeUtilities.MemberInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.DateTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Decimal.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Single.cs" />

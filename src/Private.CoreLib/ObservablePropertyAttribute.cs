@@ -13,8 +13,19 @@ namespace Niacomsoft
     public sealed class ObservablePropertyAttribute : Attribute
     {
         /// <summary> 初始化 <see cref="ObservablePropertyAttribute" /> 类的新实例。 </summary>
-        public ObservablePropertyAttribute()
+        public ObservablePropertyAttribute() : this(true)
         {
         }
+
+        /// <summary> 初始化 <see cref="ObservablePropertyAttribute" /> 类的新实例。 </summary>
+        /// <param name="enabled"> 是否启用属性值观测。 </param>
+        public ObservablePropertyAttribute(bool enabled)
+        {
+            Enabled = enabled;
+        }
+
+        /// <summary> 是否启用属性值观测。 </summary>
+        /// <value> 设置或获取一个 <see langword="bool" /> 类型值，用于表示是否启用属性值观测。 </value>
+        public bool Enabled { get; set; }
     }
 }
