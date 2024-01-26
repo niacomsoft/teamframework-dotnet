@@ -6,7 +6,7 @@ namespace Niacomsoft
 {
     /// <summary> 定义了通用的上下文的接口。 </summary>
     /// <seealso cref="IDisposable" />
-    public interface IGenericContext : IDisposable
+    public interface IGeneralContext : IDisposable
     {
         /// <summary> 上下文数据。 </summary>
         /// <value> 获取 <see cref="IContextualData" /> 类型的对象实例，用于表示上下文数据。 </value>

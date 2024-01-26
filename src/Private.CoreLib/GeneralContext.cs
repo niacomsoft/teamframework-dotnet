@@ -9,22 +9,22 @@ using Niacomsoft.Utilities;
 namespace Niacomsoft
 {
     /// <summary> 提供了通用的应用程序上下文相关的基本方法。 </summary>
-    /// <seealso cref="IGenericContext" />
-    public class GenericContext : IGenericContext
+    /// <seealso cref="IGeneralContext" />
+    public partial class GeneralContext : IGeneralContext
     {
         /// <summary> 初始化 <see cref="IContextualData" /> 类的新实例。 </summary>
         /// <param name="data">
         /// 上下文数据。
         /// <para> 实现了 <see cref="IContextualData" /> 类型接口的对象实例。 </para>
         /// </param>
-        public GenericContext(IContextualData data)
+        public GeneralContext(IContextualData data)
         {
             ContextData = data;
         }
 
-        /// <summary> 初始化 <see cref="GenericContext" /> 类的新实例。 </summary>
+        /// <summary> 初始化 <see cref="GeneralContext" /> 类的新实例。 </summary>
         /// <seealso cref="ContextualData" />
-        public GenericContext() : this(new ContextualData())
+        public GeneralContext() : this(new ContextualData())
         {
         }
 

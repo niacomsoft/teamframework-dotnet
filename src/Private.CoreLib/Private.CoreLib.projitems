@@ -22,12 +22,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler`1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)GenericContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.Statics.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IContextualData.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IGenericContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
