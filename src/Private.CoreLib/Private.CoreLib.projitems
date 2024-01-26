@@ -18,6 +18,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmitData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmptyComparisonOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnvironmentVariable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler.cs" />
