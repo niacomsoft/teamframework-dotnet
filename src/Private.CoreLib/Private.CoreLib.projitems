@@ -37,6 +37,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\ICreationTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IEnabledState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IModificationTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IRemovedState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.Static.cs" />
