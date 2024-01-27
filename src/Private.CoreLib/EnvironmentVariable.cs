@@ -8,7 +8,7 @@ using Niacomsoft.Utilities;
 namespace Niacomsoft
 {
     /// <summary> 提供了环境变量相关的基本方法。 </summary>
-    public class EnvironmentVariable
+    public partial class EnvironmentVariable
     {
         private static readonly Hashtable CachedEnvironmentVars = new Hashtable();
 
