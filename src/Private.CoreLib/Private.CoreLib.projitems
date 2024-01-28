@@ -40,6 +40,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Objects\ICreationTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Objects\IEnabledState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Objects\IModificationTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IName.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Objects\IRemovedState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int64.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\Http\HttpResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Strings.en-US.resx" />
