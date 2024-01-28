@@ -10,4 +10,8 @@ namespace Niacomsoft.Objects
         /// <value> 设置或获取 <typeparamref name="T" /> 类型的对象实例或值，用于表示是否启用。 </value>
         T Enabled { get; set; }
     }
+
+    /// <summary> 定义了描述是否启用状态的接口。 </summary>
+    /// <seealso cref="IEnabledState{T}" />
+    public interface IEnabledState : IEnabledState<bool> { }
 }
