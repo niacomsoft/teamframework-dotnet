@@ -18,20 +18,30 @@
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmitData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmptyComparisonOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnvironmentVariable.Async.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnvironmentVariable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventArgs`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler`1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.Statics.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IContextualData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\ICreationTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IEnabledState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IModificationTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\IRemovedState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.Static.cs" />
@@ -74,6 +84,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int64.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\Http\HttpResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\OData\ComplexType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\OData\PaginableTable.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Strings.en-US.resx" />
