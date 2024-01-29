@@ -86,6 +86,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int32.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Web\Http\HttpResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Web\OData\ComplexType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\OData\PaginableQuery.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Web\OData\PaginableTable.cs" />
   </ItemGroup>
   <ItemGroup>
