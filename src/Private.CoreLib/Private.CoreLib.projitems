@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\%40i\teamfx-dotnet\src\Private.CoreLib\Utilities\ActivatorUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
@@ -29,6 +30,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBuilder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IGeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
