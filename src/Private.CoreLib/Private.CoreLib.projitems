@@ -32,9 +32,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)IContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IGeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IKeyOfService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IServiceResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyOfService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Objects\ICreationTime.cs" />
