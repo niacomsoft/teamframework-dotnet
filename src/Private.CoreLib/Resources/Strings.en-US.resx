@@ -127,4 +127,22 @@
   <data name="InvalidPortException_with_port" xml:space="preserve">
     <value>Invalid network communication port number "{0}".</value>
   </data>
+  <data name="DateTime_GetDescription_just_now" xml:space="preserve">
+    <value>Just now</value>
+  </data>
+  <data name="DateTime_GetDescription_minutes" xml:space="preserve">
+    <value>{0} minutes ago</value>
+  </data>
+  <data name="DateTime_GetDescription_hours" xml:space="preserve">
+    <value>{0} hours ago</value>
+  </data>
+  <data name="DateTime_GetDescription_days" xml:space="preserve">
+    <value>{0} days ago</value>
+  </data>
+  <data name="DateTime_GetDescription_same_year" xml:space="preserve">
+    <value>dd/MM</value>
+  </data>
+  <data name="DateTime_GetDescription_default" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
 </root>

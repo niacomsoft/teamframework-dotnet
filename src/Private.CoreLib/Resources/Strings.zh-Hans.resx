@@ -127,4 +127,22 @@
   <data name="InvalidPortException_with_port" xml:space="preserve">
     <value>无效的网络通信端口号 “{0}”。</value>
   </data>
+  <data name="DateTime_GetDescription_just_now" xml:space="preserve">
+    <value>就在刚刚</value>
+  </data>
+  <data name="DateTime_GetDescription_minutes" xml:space="preserve">
+    <value>{0} 分钟前</value>
+  </data>
+  <data name="DateTime_GetDescription_hours" xml:space="preserve">
+    <value>{0} 小时前</value>
+  </data>
+  <data name="DateTime_GetDescription_days" xml:space="preserve">
+    <value>{0} 天前</value>
+  </data>
+  <data name="DateTime_GetDescription_same_year" xml:space="preserve">
+    <value>MM月dd日</value>
+  </data>
+  <data name="DateTime_GetDescription_default" xml:space="preserve">
+    <value>yyyy年MM月dd日</value>
+  </data>
 </root>

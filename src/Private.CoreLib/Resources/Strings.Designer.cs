@@ -115,6 +115,60 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 {0} days ago 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_days {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_days", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 dd/MM/yyyy 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_default {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} hours ago 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_hours {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_hours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Just now 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_just_now {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_just_now", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} minutes ago 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_minutes {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 dd/MM 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_same_year {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_same_year", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Invalid network communication port number. 的本地化字符串。
         /// </summary>
         internal static string InvalidPortException_default_message {
