@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Builder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DateTimeFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
