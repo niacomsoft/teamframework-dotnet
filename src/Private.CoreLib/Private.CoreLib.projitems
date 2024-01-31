@@ -14,6 +14,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Builder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMacroParameter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
