@@ -14,6 +14,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Builder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\GuidGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\IdGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\IIdGenerator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DateTimeFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
