@@ -162,4 +162,10 @@
   <data name="DirectoryNotFoundException_with_dir_path" xml:space="preserve">
     <value>The directory "{0}" does not exist.</value>
   </data>
+  <data name="MacroParameterException_invalid_name_empty_name" xml:space="preserve">
+    <value>Invalid macro parameter name. You may have provided null or whitespace.</value>
+  </data>
+  <data name="MacroParameterException_invalid_name_not_match" xml:space="preserve">
+    <value>Invalid macro parameter name. You may have provided special characters other than letters, numbers, minus signs, and underscores.</value>
+  </data>
 </root>

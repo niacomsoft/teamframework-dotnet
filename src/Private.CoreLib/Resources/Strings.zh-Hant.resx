@@ -157,4 +157,10 @@
   <data name="DirectoryNotFoundException_with_dir_path" xml:space="preserve">
     <value>路徑 「{0}」不存在。</value>
   </data>
+  <data name="MacroParameterException_invalid_name_empty_name" xml:space="preserve">
+    <value>無效的宏參數名稱。 您可能提供了 null 或空白符。</value>
+  </data>
+  <data name="MacroParameterException_invalid_name_not_match" xml:space="preserve">
+    <value>無效的宏參數名稱。 您可能提供了字母、數位、英文減號和英文下劃線之外的特殊字元。</value>
+  </data>
 </root>

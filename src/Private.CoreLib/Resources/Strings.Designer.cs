@@ -223,6 +223,24 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 Invalid macro parameter name. You may have provided null or whitespace. 的本地化字符串。
+        /// </summary>
+        internal static string MacroParameterException_invalid_name_empty_name {
+            get {
+                return ResourceManager.GetString("MacroParameterException_invalid_name_empty_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Invalid macro parameter name. You may have provided special characters other than letters, numbers, minus signs, and underscores. 的本地化字符串。
+        /// </summary>
+        internal static string MacroParameterException_invalid_name_not_match {
+            get {
+                return ResourceManager.GetString("MacroParameterException_invalid_name_not_match", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 The resource name is required. It should not be null, &quot;String.Empty&quot;, or all whitespace. 的本地化字符串。
         /// </summary>
         internal static string ResourceStringResolver_not_support_resource_name {

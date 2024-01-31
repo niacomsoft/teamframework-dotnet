@@ -12,6 +12,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\%40i\teamfx-dotnet\src\Private.CoreLib\Utilities\ActivatorUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Builder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMacroParameter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\GuidGenerator.cs" />
