@@ -1,5 +1,7 @@
 ﻿// © 2024 WANG YUCAI. LICENSED UNDER THE MIT LICENSE. SEE LICENSE FILE IN THE PROJECT ROOT FOR FULL LICENSE INFORMATION.
 
+using System.Diagnostics.CodeAnalysis;
+using System.Text;
 using System.Text.RegularExpressions;
 
 using Niacomsoft.Utilities;
@@ -34,6 +36,14 @@ namespace Niacomsoft.Configuration
             Expression = AssertUtilities.IsEmpty(Scope, EmptyComparisonOptions.NullOrWhitespace)
                     ? $"$({Name})"
                     : $"$({Scope.Trim()}:{Name})";
+
+            var patternBuilder = new StringBuilder(@"\$\(");
+            if (!AssertUtilities.IsEmpty(Scope, EmptyComparisonOptions.NullOrWhitespace))
+            {
+                patternBuilder.Append($@"{Scope.Trim()}\:");
+            }
+            patternBuilder.Append($@"{Name.Trim()}\)");
+            DynamicallyGeneratedPattern = patternBuilder.ToString();
         }
 
         /// <inheritdoc />
@@ -48,14 +58,22 @@ namespace Niacomsoft.Configuration
         /// <inheritdoc />
         public virtual string Value { get; }
 
+        /// <summary> 动态生成的正则表达式。 </summary>
+        /// <value> 获取一个字符串，用于表示动态生成的正则表达式。 </value>
+        protected virtual string DynamicallyGeneratedPattern { get; }
+
         /// <inheritdoc />
+        [SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
         public virtual bool IsMatch(string s, RegexOptions options = RegexOptions.IgnoreCase | RegexOptions.Multiline | RegexOptions.Singleline)
         {
+            return Regex.IsMatch(s, DynamicallyGeneratedPattern, options);
         }
 
         /// <inheritdoc />
+        [SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
         public virtual string Replace(string s, RegexOptions options = RegexOptions.IgnoreCase | RegexOptions.Multiline | RegexOptions.Singleline)
         {
+            return Regex.Replace(s, DynamicallyGeneratedPattern, Value, options);
         }
     }
 }

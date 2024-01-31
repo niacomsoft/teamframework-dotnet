@@ -52,14 +52,11 @@ namespace Niacomsoft.Configuration
         /// 当指定的宏命令参数名称 <paramref name="name" /> 包含了字母、数字、英文减号和英文下划线之外的特殊字符时，将引发一个 <see cref="MacroParameterException" /> 类型的异常。
         /// </summary>
         /// <param name="name"> 需要校验的宏参数名称。 </param>
-        /// <exception cref="RegexMatchTimeoutException">
-        /// 当调用 <see cref="Regex.IsMatch(string, string, RegexOptions)" /> 方法时，可能引发此类型的异常。
-        /// </exception>
         public static void ThrowIfNotMatch(string name)
         {
+#pragma warning disable Ex0100 // Member may throw undocumented exception
             if (!NamePattern.IsMatch(name))
             {
-#pragma warning disable Ex0100 // Member may throw undocumented exception
                 throw new MacroParameterException(SR.GetString("MacroParameterException_invalid_name_not_match"));
 #pragma warning restore Ex0100 // Member may throw undocumented exception
             }
