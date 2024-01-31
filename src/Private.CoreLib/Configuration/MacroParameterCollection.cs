@@ -4,10 +4,11 @@ using System.Collections.Generic;
 
 namespace Niacomsoft.Configuration
 {
-    /// <summary> <see cref="IMacroParameter" /> 类型的对象实例集合。 </summary>
+    /// <summary> <see cref="IMacroParameter" /> 类型的对象实例集合。密闭的，不可以从此类型派生。 </summary>
     /// <seealso cref="IMacroParameter" />
     /// <seealso cref="List{T}" />
     /// <seealso cref="MacroParameter" />
+    /// <remarks> 密闭的，不可以从此类型派生。 </remarks>
     public sealed class MacroParameterCollection : List<IMacroParameter>
     {
         /// <summary> 初始化 <see cref="MacroParameterCollection" /> 类的新实例。 </summary>
