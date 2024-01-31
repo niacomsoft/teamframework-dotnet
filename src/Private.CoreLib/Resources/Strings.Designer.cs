@@ -169,6 +169,24 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 The directory does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string DirectoryNotFoundException_default_message {
+            get {
+                return ResourceManager.GetString("DirectoryNotFoundException_default_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The directory &quot;{0}&quot; does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string DirectoryNotFoundException_with_dir_path {
+            get {
+                return ResourceManager.GetString("DirectoryNotFoundException_with_dir_path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 The file does not exist. 的本地化字符串。
         /// </summary>
         internal static string FileNotFoundException_default_message {
@@ -178,7 +196,7 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
-        ///   查找类似 File &quot;{0}&quot; does not exist. 的本地化字符串。
+        ///   查找类似 The file &quot;{0}&quot; does not exist. 的本地化字符串。
         /// </summary>
         internal static string FileNotFoundException_with_file_path {
             get {

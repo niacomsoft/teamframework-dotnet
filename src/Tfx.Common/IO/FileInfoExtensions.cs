@@ -12,9 +12,9 @@ namespace Niacomsoft.TeamFramework.IO
     public static class FileInfoExtensions
     {
         /// <summary>
-        /// 当 <paramref name="file" /> 未找到时，将引发一个 <see cref="FileNotFoundException" /> 类型的异常或调用 <paramref name="ifNotExists" /> 方法。
+        /// 当 <paramref name="this" /> 未找到时，将引发一个 <see cref="FileNotFoundException" /> 类型的异常或调用 <paramref name="ifNotExists" /> 方法。
         /// </summary>
-        /// <param name="file">
+        /// <param name="this">
         /// 需要校验的文件信息。
         /// <para> <see cref="FileInfo" /> 类型的对象实例。 </para>
         /// </param>
@@ -30,19 +30,19 @@ namespace Niacomsoft.TeamFramework.IO
         /// <seealso cref="FileSystemInfo.Refresh()" />
         /// <exception cref="IOException"> 当调用 <see cref="FileSystemInfo.Refresh()" /> 方法时，可能引发此类型的异常。 </exception>
         /// <exception cref="System.Security.SecurityException"> 当访问 <see cref="FileSystemInfo.FullName" /> 属性时，可能引发此类型的异常。 </exception>
-        public static void IfNotFound(this FileInfo file, Action<FileInfo> ifNotExists = null)
+        public static void IfNotFound(this FileInfo @this, Action<FileInfo> ifNotExists = null)
         {
-            file.Refresh();
-            if (Debugger.IfWriteLine(!file.Exists, $"File \"{file.FullName}\" does not exist.", null, DebuggingLevel.Warning))
+            @this.Refresh();
+            if (Debugger.IfWriteLine(!@this.Exists, $"The file \"{@this.FullName}\" does not exist.", null, DebuggingLevel.Warning))
             {
                 if (AssertUtilities.NotNull(ifNotExists))
                 {
-                    ifNotExists(file);
+                    ifNotExists(@this);
                 }
                 else
                 {
 #pragma warning disable Ex0100 // Member may throw undocumented exception
-                    throw new FileNotFoundException(SR.Format("FileNotFoundException_with_file_path", file.FullName), file.FullName);
+                    throw new FileNotFoundException(SR.Format("FileNotFoundException_with_file_path", @this.FullName), @this.FullName);
 #pragma warning restore Ex0100 // Member may throw undocumented exception
                 }
             }

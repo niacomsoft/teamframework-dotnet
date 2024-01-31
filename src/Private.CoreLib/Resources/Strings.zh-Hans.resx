@@ -151,4 +151,10 @@
   <data name="FileNotFoundException_with_file_path" xml:space="preserve">
     <value>文件 “{0}”不存在。</value>
   </data>
+  <data name="DirectoryNotFoundException_default_message" xml:space="preserve">
+    <value>路径不存在。</value>
+  </data>
+  <data name="DirectoryNotFoundException_with_dir_path" xml:space="preserve">
+    <value>路径 “{0}”不存在。</value>
+  </data>
 </root>
