@@ -127,4 +127,45 @@
   <data name="InvalidPortException_with_port" xml:space="preserve">
     <value>Invalid network communication port number "{0}".</value>
   </data>
+  <data name="DateTime_GetDescription_just_now" xml:space="preserve">
+    <value>Just now</value>
+    <comment>1 分钟以内</comment>
+  </data>
+  <data name="DateTime_GetDescription_minutes" xml:space="preserve">
+    <value>{0} minutes ago</value>
+    <comment>60 分钟以内</comment>
+  </data>
+  <data name="DateTime_GetDescription_hours" xml:space="preserve">
+    <value>{0} hours ago</value>
+    <comment>24 小时以内</comment>
+  </data>
+  <data name="DateTime_GetDescription_days" xml:space="preserve">
+    <value>{0} days ago</value>
+    <comment>180 天以内</comment>
+  </data>
+  <data name="DateTime_GetDescription_same_year" xml:space="preserve">
+    <value>dd/MM</value>
+    <comment>180 天以上且在同一年</comment>
+  </data>
+  <data name="DateTime_GetDescription_default" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="FileNotFoundException_default_message" xml:space="preserve">
+    <value>The file does not exist.</value>
+  </data>
+  <data name="FileNotFoundException_with_file_path" xml:space="preserve">
+    <value>The file "{0}" does not exist.</value>
+  </data>
+  <data name="DirectoryNotFoundException_default_message" xml:space="preserve">
+    <value>The directory does not exist.</value>
+  </data>
+  <data name="DirectoryNotFoundException_with_dir_path" xml:space="preserve">
+    <value>The directory "{0}" does not exist.</value>
+  </data>
+  <data name="MacroParameterException_invalid_name_empty_name" xml:space="preserve">
+    <value>Invalid macro parameter name. You may have provided null or whitespace.</value>
+  </data>
+  <data name="MacroParameterException_invalid_name_not_match" xml:space="preserve">
+    <value>Invalid macro parameter name. You may have provided special characters other than letters, numbers, minus signs, and underscores.</value>
+  </data>
 </root>

@@ -14,6 +14,8 @@
 
   - [THE MIT LICENSE](LICENSE.md#the-mit-license)
   - [FEATURES](docs/feature-description.md#features)
+  - SPECIAL FEATURES
+    - [宏参数配置默认格式 ▪ Macro Parameter](src/Private.CoreLib/Configuration/MacroParameter.md)
 
 ----
 

@@ -115,6 +115,96 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 {0} days ago 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_days {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_days", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 dd/MM/yyyy 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_default {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} hours ago 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_hours {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_hours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Just now 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_just_now {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_just_now", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} minutes ago 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_minutes {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 dd/MM 的本地化字符串。
+        /// </summary>
+        internal static string DateTime_GetDescription_same_year {
+            get {
+                return ResourceManager.GetString("DateTime_GetDescription_same_year", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The directory does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string DirectoryNotFoundException_default_message {
+            get {
+                return ResourceManager.GetString("DirectoryNotFoundException_default_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The directory &quot;{0}&quot; does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string DirectoryNotFoundException_with_dir_path {
+            get {
+                return ResourceManager.GetString("DirectoryNotFoundException_with_dir_path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The file does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string FileNotFoundException_default_message {
+            get {
+                return ResourceManager.GetString("FileNotFoundException_default_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The file &quot;{0}&quot; does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string FileNotFoundException_with_file_path {
+            get {
+                return ResourceManager.GetString("FileNotFoundException_with_file_path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Invalid network communication port number. 的本地化字符串。
         /// </summary>
         internal static string InvalidPortException_default_message {
@@ -129,6 +219,24 @@ namespace Niacomsoft.Resources {
         internal static string InvalidPortException_with_port {
             get {
                 return ResourceManager.GetString("InvalidPortException_with_port", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Invalid macro parameter name. You may have provided null or whitespace. 的本地化字符串。
+        /// </summary>
+        internal static string MacroParameterException_invalid_name_empty_name {
+            get {
+                return ResourceManager.GetString("MacroParameterException_invalid_name_empty_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Invalid macro parameter name. You may have provided special characters other than letters, numbers, minus signs, and underscores. 的本地化字符串。
+        /// </summary>
+        internal static string MacroParameterException_invalid_name_not_match {
+            get {
+                return ResourceManager.GetString("MacroParameterException_invalid_name_not_match", resourceCulture);
             }
         }
         

@@ -4,6 +4,7 @@
     <AssemblyName>Niacomsoft.CoreLib</AssemblyName>
     <RootNamespace>Niacomsoft</RootNamespace>
     <PackageTags>$(PackageTags); corelib</PackageTags>
+    <Description>This library defines core type definitions such as runtime exceptions. 此类库定义了运行时异常等核心类型定义。</Description>
   </PropertyGroup>
   <Import Project="..\Private.CoreLib\Private.CoreLib.projitems" Label="Shared" />
 </Project>

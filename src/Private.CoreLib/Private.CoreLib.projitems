@@ -11,7 +11,17 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\%40i\teamfx-dotnet\src\Private.CoreLib\Utilities\ActivatorUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base64StringFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMacroParameter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\GuidGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\IdGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\IIdGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DateTimeFormatter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggingLevel.cs" />
@@ -29,12 +39,16 @@
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBuilder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IGeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IKeyOfService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IServiceResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyOfService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\InvalidPortException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Net\Port.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Objects\ICreationTime.cs" />
@@ -86,6 +100,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utilities\StringUtilities.Int32.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Web\Http\HttpResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Web\OData\ComplexType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\OData\PaginableQuery.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Web\OData\PaginableTable.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -96,5 +111,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Strings.zh-Hans.resx" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Strings.zh-Hant.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Configuration\MacroParameter.md" />
   </ItemGroup>
 </Project>

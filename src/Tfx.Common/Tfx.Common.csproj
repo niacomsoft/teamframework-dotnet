@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Common</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework</RootNamespace>
+    <PackageTags>$(PackageTags); common;</PackageTags>
+    <Description>This library contains common functions, methods, utility classes, etc. 此类库中公共功能、方法和工具类等。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+  </ItemGroup>
+
+</Project>

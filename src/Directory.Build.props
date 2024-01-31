@@ -6,7 +6,6 @@
     <Title>$(AssemblyName)</Title>
     <Authors>Wang Yucai</Authors>
     <Product>TeamFramework™</Product>
-    <Description>This library defines core type definitions such as runtime exceptions. 此类库定义了运行时异常等核心类型定义。</Description>
     <Copyright>© 2024 Wang Yucai.</Copyright>
     <RepositoryUrl>https://github.com/niacomsoft/teamframework-dotnet</RepositoryUrl>
     <PackageTags>niacomsoft; team-framework; dotnet; dotnet-core; dotnet-framework</PackageTags>
@@ -15,10 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Nerdbank.GitVersioning"
-                      Version="3.7.48-alpha"
-                      PrivateAssets="all"
-                      Condition="!Exists('packages.config')" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.7.48-alpha" PrivateAssets="all" Condition="!Exists('packages.config')" />
   </ItemGroup>
 
   <ItemGroup>

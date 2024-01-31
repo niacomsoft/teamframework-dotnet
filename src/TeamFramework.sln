@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Niacomsoft.CoreLib", "Niaco
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Private.CoreLib", "Private.CoreLib\Private.CoreLib.shproj", "{FC2A6C11-DA4E-4AF1-8AC7-BDD96E0EFDC8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Common", "Tfx.Common\Tfx.Common.csproj", "{6C2ED3FE-9745-41AC-B5F5-2A2F42CCFCD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{0FA47268-25C0-40E1-B7C3-C387DEB2B041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FA47268-25C0-40E1-B7C3-C387DEB2B041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FA47268-25C0-40E1-B7C3-C387DEB2B041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2ED3FE-9745-41AC-B5F5-2A2F42CCFCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2ED3FE-9745-41AC-B5F5-2A2F42CCFCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2ED3FE-9745-41AC-B5F5-2A2F42CCFCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2ED3FE-9745-41AC-B5F5-2A2F42CCFCD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
