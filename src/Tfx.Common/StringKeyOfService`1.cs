@@ -2,7 +2,6 @@
 
 namespace Niacomsoft.TeamFramework
 {
-
     /// <summary> 提供了 <see cref="string" /> 类型的服务标识相关的方法。 </summary>
     /// <typeparam name="TService"> 服务类型。 </typeparam>
     public class StringKeyOfService<TService> : StringKeyOfService

@@ -145,4 +145,10 @@
   <data name="DateTime_GetDescription_default" xml:space="preserve">
     <value>yyyy年MM月dd日</value>
   </data>
+  <data name="FileNotFoundException_default_message" xml:space="preserve">
+    <value>檔不存在。</value>
+  </data>
+  <data name="FileNotFoundException_with_file_path" xml:space="preserve">
+    <value>檔 「{0}」不存在。</value>
+  </data>
 </root>

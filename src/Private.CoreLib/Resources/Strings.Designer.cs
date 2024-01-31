@@ -169,6 +169,24 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 The file does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string FileNotFoundException_default_message {
+            get {
+                return ResourceManager.GetString("FileNotFoundException_default_message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 File &quot;{0}&quot; does not exist. 的本地化字符串。
+        /// </summary>
+        internal static string FileNotFoundException_with_file_path {
+            get {
+                return ResourceManager.GetString("FileNotFoundException_with_file_path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Invalid network communication port number. 的本地化字符串。
         /// </summary>
         internal static string InvalidPortException_default_message {
