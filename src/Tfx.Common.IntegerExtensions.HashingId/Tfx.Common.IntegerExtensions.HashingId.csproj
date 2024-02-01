@@ -20,4 +20,9 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+      <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    </ItemGroup>
+
 </Project>

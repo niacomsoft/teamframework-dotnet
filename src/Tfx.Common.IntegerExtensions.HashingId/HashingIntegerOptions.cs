@@ -15,6 +15,9 @@ namespace Niacomsoft.TeamFramework.Security.Integer
         /// <seealso cref="SecretKeyAlphabet" />
         public static readonly ISecretKeyAlphabet DefaultAlphabet = new SecretKeyAlphabet("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-");
 
+        /// <summary> 默认的计算整型哈希值选项。 </summary>
+        public static readonly HashingIntegerOptions DefaultOptions = new HashingIntegerOptions();
+
         /// <summary> 初始化 <see cref="HashingIntegerOptions" /> 类的新实例。 </summary>
         public HashingIntegerOptions() : this(DefaultAlphabet, DefaultMinLength)
         {
