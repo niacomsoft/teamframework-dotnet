@@ -17,6 +17,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Cents.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\EntityBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\IEntityBase.cs" />
