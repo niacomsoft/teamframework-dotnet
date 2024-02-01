@@ -163,4 +163,10 @@
   <data name="MacroParameterException_invalid_name_not_match" xml:space="preserve">
     <value>无效的宏参数名称。您可能提供了字母、数字、英文减号和英文下划线之外的特殊字符。</value>
   </data>
+  <data name="Exception_get_summary_with_reason" xml:space="preserve">
+    <value>当 “{0}” 时，引发了一个 “{1}” 类型的异常：{2}</value>
+  </data>
+  <data name="Exception_get_summary_without_reason" xml:space="preserve">
+    <value>当调用方法 “{0}” 时，引发了一个 “{1}” 类型的异常：{2}</value>
+  </data>
 </root>
