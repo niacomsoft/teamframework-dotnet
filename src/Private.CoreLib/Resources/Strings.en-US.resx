@@ -163,4 +163,10 @@
   <data name="MacroParameterException_invalid_name_not_match" xml:space="preserve">
     <value>Invalid macro parameter name. You may have provided special characters other than letters, numbers, minus signs, and underscores.</value>
   </data>
+  <data name="Exception_get_summary_with_reason" xml:space="preserve">
+    <value>When "{0}", an exception of type "{1}" is thrown: {2}</value>
+  </data>
+  <data name="Exception_get_summary_without_reason" xml:space="preserve">
+    <value>When method "{0}" is called, an exception of type "{1}" is thrown: {2}</value>
+  </data>
 </root>

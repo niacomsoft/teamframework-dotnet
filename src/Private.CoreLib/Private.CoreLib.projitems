@@ -17,7 +17,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterCollection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Cents.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\EntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\IEntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\IManagedEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\IMonitorEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\ManagedEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\MonitorEntity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\GuidGenerator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\IdGenerator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\IIdGenerator.cs" />
@@ -36,6 +43,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.Statics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Globalization\CurrencySymbol.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />

@@ -21,5 +21,21 @@ namespace Niacomsoft.Configuration
         public MacroParameterCollection(IEnumerable<IMacroParameter> collection) : base(collection)
         {
         }
+
+        /// <summary> 编译并合并同名宏参数。 </summary>
+        /// <returns> <see cref="IMacroParameter" /> 类型的对象实例字典集合。 </returns>
+        /// <seealso cref="Dictionary{TKey, TValue}" />
+        /// <seealso cref="IDictionary{TKey, TValue}" />
+        /// <seealso cref="IMacroParameter" />
+        /// <seealso cref="MacroParameter" />
+        public IDictionary<string, IMacroParameter> Compile()
+        {
+            var macrosDic = new Dictionary<string, IMacroParameter>();
+            foreach (var item in this)
+            {
+                macrosDic[item.Name] = item;
+            }
+            return macrosDic;
+        }
     }
 }

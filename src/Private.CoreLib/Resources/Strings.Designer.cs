@@ -187,6 +187,24 @@ namespace Niacomsoft.Resources {
         }
         
         /// <summary>
+        ///   查找类似 When &quot;{0}&quot;, an exception of type &quot;{1}&quot; is thrown: {2} 的本地化字符串。
+        /// </summary>
+        internal static string Exception_get_summary_with_reason {
+            get {
+                return ResourceManager.GetString("Exception_get_summary_with_reason", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 When method &quot;{0}&quot; is called, an exception of type &quot;{1}&quot; is thrown: {2} 的本地化字符串。
+        /// </summary>
+        internal static string Exception_get_summary_without_reason {
+            get {
+                return ResourceManager.GetString("Exception_get_summary_without_reason", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 The file does not exist. 的本地化字符串。
         /// </summary>
         internal static string FileNotFoundException_default_message {
