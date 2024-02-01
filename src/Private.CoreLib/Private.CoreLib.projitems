@@ -18,6 +18,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Configuration\MacroParameterException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\DbResultSpecs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\EntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\IEntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\IMonitorEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Entity\MonitorEntity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\GuidGenerator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\IdGenerator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Data\IIdGenerator.cs" />
