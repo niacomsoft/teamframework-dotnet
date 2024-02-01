@@ -44,9 +44,10 @@ namespace Niacomsoft.Data.Entity
         }
 
         /// <inheritdoc />
-        public virtual void UpdateModifiedTime()
+        public virtual IMonitorEntity<TId> UpdateModifiedTime()
         {
             ModifiedAt = DateTime.Now;
+            return this;
         }
     }
 }

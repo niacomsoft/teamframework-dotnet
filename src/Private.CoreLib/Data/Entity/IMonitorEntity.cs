@@ -11,8 +11,9 @@ namespace Niacomsoft.Data.Entity
     public interface IMonitorEntity<TId> : IEntityBase<TId>, IModificationTime
     {
         /// <summary> 更新 <see cref="IModificationTime.ModifiedAt" /> 属性。 </summary>
+        /// <returns> 当前的 <see cref="IMonitorEntity{TId}" /> 类型的对象实例 <see langword="this" />。 </returns>
         /// <seealso cref="IModificationTime" />
         /// <seealso cref="IModificationTime.ModifiedAt" />
-        void UpdateModifiedTime();
+        IMonitorEntity<TId> UpdateModifiedTime();
     }
 }
