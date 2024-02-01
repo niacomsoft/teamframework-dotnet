@@ -43,6 +43,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)GeneralEventHandler`1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralContext.Statics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Globalization\CurrencySymbol.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringDecoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IBase64StringEncoder.cs" />
