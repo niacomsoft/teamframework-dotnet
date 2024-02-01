@@ -50,4 +50,8 @@ namespace Niacomsoft.Data.Entity
             return this;
         }
     }
+
+    /// <summary> 提供了 <see cref="long" /> 类型数据实体唯一标识的相关数据实体 <see langword="abstract" /> 方法。 </summary>
+    /// <seealso cref="MonitorEntity{TId}" />
+    public abstract class MonitorEntity : MonitorEntity<long> { }
 }
