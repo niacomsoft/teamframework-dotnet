@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Common.Compatibility.Java</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Compatibility</RootNamespace>
+    <PackageTags>$(PackageTags); common; compatibility; java;</PackageTags>
+    <Description>This library provides extensions for Java compatibility methods. 此类库提供了与 Java 兼容的扩展。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+  </ItemGroup>
+
+</Project>
