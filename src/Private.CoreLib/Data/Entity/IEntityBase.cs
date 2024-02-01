@@ -2,7 +2,7 @@
 
 using Niacomsoft.Objects;
 
-namespace Niacomsoft.TeamFramework.Data.Entity
+namespace Niacomsoft.Data.Entity
 {
     /// <summary> 定义了数据实体的基本信息接口。 </summary>
     /// <typeparam name="TId"> 数据实体唯一标识类型。 </typeparam>

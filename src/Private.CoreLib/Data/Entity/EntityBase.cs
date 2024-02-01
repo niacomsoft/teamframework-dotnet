@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Niacomsoft.TeamFramework.Data.Entity
+namespace Niacomsoft.Data.Entity
 {
     /// <summary> 提供了数据实体相关的 <see langword="abstract" /> 方法。 </summary>
     /// <typeparam name="TId"> </typeparam>
