@@ -1,5 +1,7 @@
 ﻿// © 2024 WANG YUCAI. LICENSED UNDER THE MIT LICENSE. SEE LICENSE FILE IN THE PROJECT ROOT FOR FULL LICENSE INFORMATION.
 
+using Niacomsoft.Utilities;
+
 namespace Niacomsoft.Globalization
 {
     /// <summary> 提供了货币符号相关的方法。 </summary>
@@ -48,5 +50,71 @@ namespace Niacomsoft.Globalization
         /// <summary> 原有的货币符号。 </summary>
         /// <value> 获取一个字符串，用于表示原有的货币符号。 </value>
         public virtual string OriginallyUsed { get; }
+
+        /// <summary> 将 <paramref name="amount" /> 转换成带有货币符号的金额字符串（保留两位小数）。 </summary>
+        /// <param name="amount"> 金额。 </param>
+        /// <param name="useOriginal"> 使用之前货币符号。 </param>
+        /// <returns> 带有货币符号的金额字符串（保留两位小数）。 </returns>
+        /// <exception cref="System.FormatException"> 当调用 <see cref="long.ToString(string)" /> 时，可能引发此类型的异常。 </exception>
+        public string ToString(long amount, bool useOriginal = false)
+        {
+            var symbols = useOriginal && !AssertUtilities.IsEmpty(OriginallyUsed, EmptyComparisonOptions.NullOrWhitespace) ? OriginallyUsed : Current;
+            return $"{symbols} {amount:F2}";
+        }
+
+        /// <summary> 将 <paramref name="amount" /> 转换成带有货币符号的金额字符串（保留两位小数）。 </summary>
+        /// <param name="amount"> 金额。 </param>
+        /// <param name="useOriginal"> 使用之前货币符号。 </param>
+        /// <returns> 带有货币符号的金额字符串（保留两位小数）。 </returns>
+        /// <exception cref="System.FormatException"> 当调用 <see cref="int.ToString(string)" /> 时，可能引发此类型的异常。 </exception>
+        public string ToString(int amount, bool useOriginal = false)
+        {
+            var symbols = useOriginal && !AssertUtilities.IsEmpty(OriginallyUsed, EmptyComparisonOptions.NullOrWhitespace) ? OriginallyUsed : Current;
+            return $"{symbols} {amount:F2}";
+        }
+
+        /// <summary> 将 <paramref name="amount" /> 转换成带有货币符号的金额字符串（保留两位小数）。 </summary>
+        /// <param name="amount"> 金额。 </param>
+        /// <param name="useOriginal"> 使用之前货币符号。 </param>
+        /// <returns> 带有货币符号的金额字符串（保留两位小数）。 </returns>
+        /// <exception cref="System.FormatException"> 当调用 <see cref="short.ToString(string)" /> 时，可能引发此类型的异常。 </exception>
+        public string ToString(short amount, bool useOriginal = false)
+        {
+            var symbols = useOriginal && !AssertUtilities.IsEmpty(OriginallyUsed, EmptyComparisonOptions.NullOrWhitespace) ? OriginallyUsed : Current;
+            return $"{symbols} {amount:F2}";
+        }
+
+        /// <summary> 将 <paramref name="amount" /> 转换成带有货币符号的金额字符串（保留两位小数）。 </summary>
+        /// <param name="amount"> 金额。 </param>
+        /// <param name="useOriginal"> 使用之前货币符号。 </param>
+        /// <returns> 带有货币符号的金额字符串（保留两位小数）。 </returns>
+        /// <exception cref="System.FormatException"> 当调用 <see cref="double.ToString(string)" /> 时，可能引发此类型的异常。 </exception>
+        public string ToString(double amount, bool useOriginal = false)
+        {
+            var symbols = useOriginal && !AssertUtilities.IsEmpty(OriginallyUsed, EmptyComparisonOptions.NullOrWhitespace) ? OriginallyUsed : Current;
+            return $"{symbols} {amount:F2}";
+        }
+
+        /// <summary> 将 <paramref name="amount" /> 转换成带有货币符号的金额字符串（保留两位小数）。 </summary>
+        /// <param name="amount"> 金额。 </param>
+        /// <param name="useOriginal"> 使用之前货币符号。 </param>
+        /// <returns> 带有货币符号的金额字符串（保留两位小数）。 </returns>
+        /// <exception cref="System.FormatException"> 当调用 <see cref="float.ToString(string)" /> 时，可能引发此类型的异常。 </exception>
+        public string ToString(float amount, bool useOriginal = false)
+        {
+            var symbols = useOriginal && !AssertUtilities.IsEmpty(OriginallyUsed, EmptyComparisonOptions.NullOrWhitespace) ? OriginallyUsed : Current;
+            return $"{symbols} {amount:F2}";
+        }
+
+        /// <summary> 将 <paramref name="amount" /> 转换成带有货币符号的金额字符串（保留两位小数）。 </summary>
+        /// <param name="amount"> 金额。 </param>
+        /// <param name="useOriginal"> 使用之前货币符号。 </param>
+        /// <returns> 带有货币符号的金额字符串（保留两位小数）。 </returns>
+        /// <exception cref="System.FormatException"> 当调用 <see cref="decimal.ToString(string)" /> 时，可能引发此类型的异常。 </exception>
+        public string ToString(decimal amount, bool useOriginal = false)
+        {
+            var symbols = useOriginal && !AssertUtilities.IsEmpty(OriginallyUsed, EmptyComparisonOptions.NullOrWhitespace) ? OriginallyUsed : Current;
+            return $"{symbols} {amount:F2}";
+        }
     }
 }
