@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Common.Compatibility.Ja
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Common.IntegerExtensions.HashingId", "Tfx.Common.IntegerExtensions.HashingId\Tfx.Common.IntegerExtensions.HashingId.csproj", "{CE097099-C5F0-40AF-825E-0A0EDF2B5C48}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Core.Abstractions", "Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj", "{F77C0704-4B7C-4AB2-98B0-35C2A517B65A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{CE097099-C5F0-40AF-825E-0A0EDF2B5C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE097099-C5F0-40AF-825E-0A0EDF2B5C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE097099-C5F0-40AF-825E-0A0EDF2B5C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77C0704-4B7C-4AB2-98B0-35C2A517B65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77C0704-4B7C-4AB2-98B0-35C2A517B65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77C0704-4B7C-4AB2-98B0-35C2A517B65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77C0704-4B7C-4AB2-98B0-35C2A517B65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

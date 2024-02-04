@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Core.Abstractions</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework</RootNamespace>
+    <PackageTags>$(PackageTags); core; abstractions</PackageTags>
+    <Description>This library provides core functional abstractions, interface definitions, and more. 此类库中提供了核心功能抽象、接口定义等。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+  </ItemGroup>
+
+</Project>
