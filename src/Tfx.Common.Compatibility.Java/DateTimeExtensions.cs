@@ -12,7 +12,7 @@ namespace Niacomsoft.TeamFramework.Compatibility
         /// <returns> <see cref="DateTime" /> 类型的值。 </returns>
         public static DateTime FromJavaTimestampValue(this long @this)
         {
-            var javaStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
+            var javaStart = TimeZoneInfo.ConvertTime(new DateTime(1970, 1, 1), TimeZoneInfo.Local);
             return javaStart.Add(new TimeSpan(@this * 10000));
         }
 
@@ -21,7 +21,7 @@ namespace Niacomsoft.TeamFramework.Compatibility
         /// <returns> <see cref="long" /> 类型的值。 </returns>
         public static long GetJavaTimestampValue(this DateTime @this)
         {
-            var javaStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
+            var javaStart = TimeZoneInfo.ConvertTime(new DateTime(1970, 1, 1), TimeZoneInfo.Local);
             return (long)(@this - javaStart).TotalMilliseconds;
         }
     }
