@@ -8,7 +8,7 @@ namespace Niacomsoft.TeamFramework.Security.Integer
     public class HashingIntegerOptions
     {
         /// <summary> 默认的生成整型哈希值的最小长度。 </summary>
-        public const int DefaultMinLength = 16;
+        public const int DefaultMinLength = 8;
 
         /// <summary> 默认的字母表。 </summary>
         /// <seealso cref="ISecretKeyAlphabet" />
