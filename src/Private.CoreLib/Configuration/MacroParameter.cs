@@ -1,6 +1,5 @@
 ﻿// © 2024 WANG YUCAI. LICENSED UNDER THE MIT LICENSE. SEE LICENSE FILE IN THE PROJECT ROOT FOR FULL LICENSE INFORMATION.
 
-using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -27,9 +26,7 @@ namespace Niacomsoft.Configuration
         public MacroParameter(string name, string value, string scope)
         {
             MacroParameterException.ThrowIfEmpty(name);
-#pragma warning disable Ex0100 // Member may throw undocumented exception
             MacroParameterException.ThrowIfNotMatch(name);
-#pragma warning restore Ex0100 // Member may throw undocumented exception
             Name = name;
             Value = StringUtilities.IfEmpty(value, string.Empty, EmptyComparisonOptions.OnlyNull);
             Scope = scope;
@@ -63,14 +60,12 @@ namespace Niacomsoft.Configuration
         protected virtual string DynamicallyGeneratedPattern { get; }
 
         /// <inheritdoc />
-        [SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
         public virtual bool IsMatch(string s, RegexOptions options = RegexOptions.IgnoreCase | RegexOptions.Multiline | RegexOptions.Singleline)
         {
             return Regex.IsMatch(s, DynamicallyGeneratedPattern, options);
         }
 
         /// <inheritdoc />
-        [SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
         public virtual string Replace(string s, RegexOptions options = RegexOptions.IgnoreCase | RegexOptions.Multiline | RegexOptions.Singleline)
         {
             return Regex.Replace(s, DynamicallyGeneratedPattern, Value, options);
