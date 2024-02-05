@@ -73,7 +73,9 @@ namespace Niacomsoft.TeamFramework
             if (AssertUtilities.NotNull(ApplicationVersion))
                 contextData.SetValue(TeamFrameworkContext.KeyOf_ApplicationVersion, ApplicationVersion);
             contextData.SetValue(TeamFrameworkContext.KeyOf_Macros, Macros.Compile());
-            return new TeamFrameworkContext(contextData);
+            var ctx = new TeamFrameworkContext(contextData);
+            TeamFrameworkContextHolder.InternalContext = ctx;
+            return ctx;
         }
 
         /// <inheritdoc />
