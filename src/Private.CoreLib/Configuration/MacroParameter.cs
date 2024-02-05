@@ -70,5 +70,14 @@ namespace Niacomsoft.Configuration
         {
             return Regex.Replace(s, DynamicallyGeneratedPattern, Value, options);
         }
+
+        /// <summary> 获取完整的宏参数名称。 </summary>
+        /// <returns> 完整的宏参数名称。 </returns>
+        public override string ToString()
+        {
+            return AssertUtilities.IsEmpty(Scope, EmptyComparisonOptions.NullOrWhitespace)
+                ? Name
+                : $"{Scope.Trim()}:{Name.Trim()}";
+        }
     }
 }

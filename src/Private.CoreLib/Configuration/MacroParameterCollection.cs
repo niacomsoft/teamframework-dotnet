@@ -33,7 +33,7 @@ namespace Niacomsoft.Configuration
             var macrosDic = new Dictionary<string, IMacroParameter>();
             foreach (var item in this)
             {
-                macrosDic[item.Name] = item;
+                macrosDic[item.ToString()] = item;
             }
             return macrosDic;
         }
