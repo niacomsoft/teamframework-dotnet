@@ -24,7 +24,9 @@ namespace Niacomsoft.TeamFramework.Extensions.DependencyInjection
                                                                         IServiceCollection services,
                                                                         Action<IServiceCollection> configure)
         {
-            configure(services.AddSingleton<ITeamFrameworkContext>(@this));
+            configure(services.AddSingleton<ITeamFrameworkContext>(@this)
+                              .AddTransient<IServiceResolver, SystemServiceResolver>()
+                              .AddTransient<IServiceResolverExtensions, SystemServiceResolver>());
             return services;
         }
     }
