@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Extensions.DependencyInjection.Abstractions</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.DependencyInjection</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; dependency-injection; abstractions</PackageTags>
+    <Description>This library provides an abstraction of methods for managing service dependency injection. 此类库中提供了管理服务依赖注入的方法抽象。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

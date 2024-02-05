@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{51B7E7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Core", "Tfx.Core\Tfx.Core.csproj", "{AF340C3D-EB1F-4337-91FE-5F095C19E6BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Extensions.DependencyInjection.Abstractions", "Tfx.Extensions.DependencyInjection.Abstractions\Tfx.Extensions.DependencyInjection.Abstractions.csproj", "{2253A3BF-1F1F-4D29-8F6C-89E0D32D2790}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,10 @@ Global
 		{AF340C3D-EB1F-4337-91FE-5F095C19E6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF340C3D-EB1F-4337-91FE-5F095C19E6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF340C3D-EB1F-4337-91FE-5F095C19E6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2253A3BF-1F1F-4D29-8F6C-89E0D32D2790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2253A3BF-1F1F-4D29-8F6C-89E0D32D2790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2253A3BF-1F1F-4D29-8F6C-89E0D32D2790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2253A3BF-1F1F-4D29-8F6C-89E0D32D2790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +73,7 @@ Global
 		{CE097099-C5F0-40AF-825E-0A0EDF2B5C48} = {51B7E72B-011E-461C-98E8-90E27ABB37FD}
 		{F77C0704-4B7C-4AB2-98B0-35C2A517B65A} = {BA190107-850D-401B-9285-98CAE7339511}
 		{AF340C3D-EB1F-4337-91FE-5F095C19E6BC} = {BA190107-850D-401B-9285-98CAE7339511}
+		{2253A3BF-1F1F-4D29-8F6C-89E0D32D2790} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA5F6711-2336-4F2E-958D-100E3CE28B75}
