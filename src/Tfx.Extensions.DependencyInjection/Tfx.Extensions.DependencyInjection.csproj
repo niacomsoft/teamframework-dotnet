@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Extensions.DependencyInjection</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.DependencyInjection</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; dependency-injection; microsoft-di</PackageTags>
+    <Description>This library provides method implementations for managing service dependency injections based on Microsoft .NET DependencyInjection. 此类库中提供了基于 “Microsoft .NET DependencyInjection”的管理服务依赖注入的方法实现。</Description>
+  </PropertyGroup>
+
+</Project>
