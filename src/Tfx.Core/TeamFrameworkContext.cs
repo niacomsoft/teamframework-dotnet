@@ -27,6 +27,12 @@ namespace Niacomsoft.TeamFramework
             SdkVersion = GetType().Assembly.GetName().Version;
         }
 
+        /// <summary> 当前的上下文。 </summary>
+        /// <value> 获取 <see cref="ITeamFrameworkContext" /> 类型的对象实例，用于表示当前的上下文。 </value>
+        /// <seealso cref="ITeamFrameworkContext" />
+        /// <seealso cref="TeamFrameworkContext" />
+        public static ITeamFrameworkContext CurrentContext => TeamFrameworkContextHolder.InstanceManager.CreateOrGet();
+
         /// <inheritdoc />
         public Version ApplicationVersion
         {
