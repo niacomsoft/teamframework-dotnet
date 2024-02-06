@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Extensions.DependencyInjection</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.DependencyInjection</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; dependency-injection; microsoft-di</PackageTags>
+    <Description>This library provides method implementations for managing service dependency injections based on Microsoft .NET DependencyInjection. 此类库中提供了基于 “Microsoft .NET DependencyInjection”的管理服务依赖注入的方法实现。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.DependencyInjection.Abstractions\Tfx.Extensions.DependencyInjection.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
