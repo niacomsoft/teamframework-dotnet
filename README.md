@@ -17,6 +17,10 @@
   - SPECIAL FEATURES
     - [宏参数配置默认格式 ▪ Macro Parameter](src/Private.CoreLib/Configuration/MacroParameter.md)
 
+## Badges
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/niacomsoft/teamframework-dotnet?style=for-the-badge&logo=github&label=Git%20Commits) ![GitHub top language](https://img.shields.io/github/languages/top/niacomsoft/teamframework-dotnet?style=for-the-badge&label=CSharp) ![GitHub repo size](https://img.shields.io/github/repo-size/niacomsoft/teamframework-dotnet?style=for-the-badge) ![GitHub Release](https://img.shields.io/github/v/release/niacomsoft/teamframework-dotnet?include_prereleases&display_name=tag&style=for-the-badge&logo=github)
+
 ----
 
 
