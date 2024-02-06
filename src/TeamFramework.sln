@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Extensions.DependencyIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Extensions.DependencyInjection", "Tfx.Extensions.DependencyInjection\Tfx.Extensions.DependencyInjection.csproj", "{6B0F57DB-69C1-417A-B274-F2322897D53D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Extensions.DependencyInjection.UnityContainer", "Tfx.Extensions.DependencyInjection.UnityContainer\Tfx.Extensions.DependencyInjection.UnityContainer.csproj", "{9A701E88-9102-447B-BB1D-792D5F1994BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{6B0F57DB-69C1-417A-B274-F2322897D53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B0F57DB-69C1-417A-B274-F2322897D53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B0F57DB-69C1-417A-B274-F2322897D53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A701E88-9102-447B-BB1D-792D5F1994BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A701E88-9102-447B-BB1D-792D5F1994BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A701E88-9102-447B-BB1D-792D5F1994BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A701E88-9102-447B-BB1D-792D5F1994BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{AF340C3D-EB1F-4337-91FE-5F095C19E6BC} = {BA190107-850D-401B-9285-98CAE7339511}
 		{2253A3BF-1F1F-4D29-8F6C-89E0D32D2790} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
 		{6B0F57DB-69C1-417A-B274-F2322897D53D} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
+		{9A701E88-9102-447B-BB1D-792D5F1994BA} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA5F6711-2336-4F2E-958D-100E3CE28B75}
