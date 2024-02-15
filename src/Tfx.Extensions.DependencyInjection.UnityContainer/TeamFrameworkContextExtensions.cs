@@ -31,9 +31,11 @@ namespace Niacomsoft.TeamFramework.Extensions.DependencyInjection
                                                                      IUnityContainer container,
                                                                      Action<IUnityContainer> configure)
         {
+            var serviceResolver = new UnityServiceResolver(container);
+
             configure(container.RegisterInstance<ITeamFrameworkContext>(@this)
-                               .RegisterType<IServiceResolver, UnityServiceResolver>(new PerResolveLifetimeManager())
-                               .RegisterType<IServiceResolverExtensions, UnityServiceResolver>(new PerResolveLifetimeManager()));
+                               .RegisterInstance<IServiceResolver>(serviceResolver, new SingletonLifetimeManager())
+                               .RegisterInstance<IServiceResolverExtensions>(serviceResolver, new SingletonLifetimeManager()));
             return container;
         }
     }
