@@ -100,6 +100,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <param name="cause"> 引发运行时异常 <paramref name="exception" /> 的原因。 </param>
         public LogEntry(Exception exception, string cause = null) : base(exception, cause)
         {
+            Category = typeof(TCategory).FullName;
         }
 
         /// <summary> 初始化 <see cref="LogEntry{TCategory}" /> 类的新实例。 </summary>
