@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Extensions.Logging.Abstractions</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.Logging</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; logging; abstractions</PackageTags>
+    <Description>This library provides interfaces and abstraction types for logging runtime diagnostic logs. 此类库中提供了记录运行时诊断日志的接口和抽象类型等。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

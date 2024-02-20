@@ -169,4 +169,22 @@
   <data name="Exception_get_summary_without_reason" xml:space="preserve">
     <value>When method "{0}" is called, an exception of type "{1}" is thrown: {2}</value>
   </data>
+  <data name="LogLevel_Tace" xml:space="preserve">
+    <value>Trace</value>
+  </data>
+  <data name="LogLevel_Debug" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="LogLevel_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LogLevel_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="LogLevel_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="LogLevel_Fatal" xml:space="preserve">
+    <value>Fatal</value>
+  </data>
 </root>
