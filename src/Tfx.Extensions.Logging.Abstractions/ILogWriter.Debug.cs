@@ -10,7 +10,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <param name="message"> 运行时日志描述信息。 </param>
         /// <param name="category"> 运行时日志类别。 </param>
         /// <seealso cref="LogLevel" />
-        /// <seealso cref="LogLevel.Trace" />
+        /// <seealso cref="LogLevel.Debug" />
         void LogDebug(string message, string category = null);
 
         /// <summary> 记录运行时调试日志。 </summary>
@@ -20,7 +20,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <para> <see cref="Type" /> 类型的对象实例。 </para>
         /// </param>
         /// <seealso cref="LogLevel" />
-        /// <seealso cref="LogLevel.Trace" />
+        /// <seealso cref="LogLevel.Debug" />
         /// <seealso cref="Type" />
         void LogDebug(string message, Type category = null);
 
@@ -28,7 +28,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <typeparam name="TCategory"> 标识运行时日志类别的类型。 </typeparam>
         /// <param name="message"> 运行时日志描述信息。 </param>
         /// <seealso cref="LogLevel" />
-        /// <seealso cref="LogLevel.Trace" />
+        /// <seealso cref="LogLevel.Debug" />
         void LogDebug<TCategory>(string message);
 
         /// <summary> 记录运行时调试级别异常日志。 </summary>
@@ -39,7 +39,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <param name="cause"> 引发运行时异常的原因。 </param>
         /// <seealso cref="Exception" />
         /// <seealso cref="LogLevel" />
-        /// <seealso cref="LogLevel.Trace" />
+        /// <seealso cref="LogLevel.Debug" />
         void LogDebug(Exception error, string cause = null);
 
         /// <summary> 记录运行时调试级别异常日志。 </summary>
@@ -51,7 +51,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <param name="cause"> 引发运行时异常的原因。 </param>
         /// <seealso cref="Exception" />
         /// <seealso cref="LogLevel" />
-        /// <seealso cref="LogLevel.Trace" />
+        /// <seealso cref="LogLevel.Debug" />
         void LogDebug<TCategory>(Exception error, string cause = null);
     }
 }
