@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Niacomsoft....Private.CoreLib.Resources {
+namespace Niacomsoft.Resources {
     using System;
     
     
