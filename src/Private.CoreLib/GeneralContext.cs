@@ -12,7 +12,7 @@ namespace Niacomsoft
     /// <seealso cref="IGeneralContext" />
     public partial class GeneralContext : IGeneralContext
     {
-        /// <summary> 初始化 <see cref="IContextualData" /> 类的新实例。 </summary>
+        /// <summary> 初始化 <see cref="GeneralContext" /> 类的新实例。 </summary>
         /// <param name="data">
         /// 上下文数据。
         /// <para> 实现了 <see cref="IContextualData" /> 类型接口的对象实例。 </para>

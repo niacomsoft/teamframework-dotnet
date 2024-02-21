@@ -169,4 +169,22 @@
   <data name="Exception_get_summary_without_reason" xml:space="preserve">
     <value>当调用方法 “{0}” 时，引发了一个 “{1}” 类型的异常：{2}</value>
   </data>
+  <data name="LogLevel_Tace" xml:space="preserve">
+    <value>追踪</value>
+  </data>
+  <data name="LogLevel_Debug" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="LogLevel_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="LogLevel_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="LogLevel_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="LogLevel_Fatal" xml:space="preserve">
+    <value>致命的</value>
+  </data>
 </root>

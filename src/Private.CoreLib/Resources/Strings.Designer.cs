@@ -241,6 +241,60 @@ namespace Niacomsoft....Private.CoreLib.Resources {
         }
         
         /// <summary>
+        ///   查找类似 Debug 的本地化字符串。
+        /// </summary>
+        internal static string LogLevel_Debug {
+            get {
+                return ResourceManager.GetString("LogLevel_Debug", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Error 的本地化字符串。
+        /// </summary>
+        internal static string LogLevel_Error {
+            get {
+                return ResourceManager.GetString("LogLevel_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Fatal 的本地化字符串。
+        /// </summary>
+        internal static string LogLevel_Fatal {
+            get {
+                return ResourceManager.GetString("LogLevel_Fatal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Information 的本地化字符串。
+        /// </summary>
+        internal static string LogLevel_Information {
+            get {
+                return ResourceManager.GetString("LogLevel_Information", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Trace 的本地化字符串。
+        /// </summary>
+        internal static string LogLevel_Tace {
+            get {
+                return ResourceManager.GetString("LogLevel_Tace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Warning 的本地化字符串。
+        /// </summary>
+        internal static string LogLevel_Warning {
+            get {
+                return ResourceManager.GetString("LogLevel_Warning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Invalid macro parameter name. You may have provided null or whitespace. 的本地化字符串。
         /// </summary>
         internal static string MacroParameterException_invalid_name_empty_name {

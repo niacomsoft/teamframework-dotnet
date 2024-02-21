@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Core</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework</RootNamespace>
+    <PackageTags>$(PackageTags); core;</PackageTags>
+    <Description>The basic implementation of the core functionality is provided in this library. 此类库中提供了核心功能的基础实现。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

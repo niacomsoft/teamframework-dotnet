@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Extensions.DependencyInjection.UnityContainer</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.DependencyInjection</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; dependency-injection; unity</PackageTags>
+    <Description>This library provides dependency injection management based on UnityContainer. 此类库提供了基于 UnityContainer 的依赖注入管理功能。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.11.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.DependencyInjection.Abstractions\Tfx.Extensions.DependencyInjection.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
