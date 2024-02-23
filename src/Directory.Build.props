@@ -1,7 +1,6 @@
 <Project>
   <PropertyGroup>
     <BaseOutputPath>..\..\Build\</BaseOutputPath>
-    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
     <Authors>Wang Yucai</Authors>
