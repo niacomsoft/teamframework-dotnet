@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Extensions.IO.FileWatchers.Abstractions</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.IO.FileWatchers</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; io; file-watcher; abstractions</PackageTags>
+    <Description>This library provides a file system monitor abstraction. 此类库提供了文件系统监控程序抽象。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging.Abstractions\Tfx.Extensions.Logging.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
