@@ -5,7 +5,7 @@ using System;
 namespace Niacomsoft.TeamFramework.Extensions.Logging
 {
     /// <summary> 为 <see cref="ILogWriter" /> 类型提供的扩展方法。 </summary>
-    public static class LogWriterExtensions
+    public static partial class LogWriterExtensions
     {
         /// <summary> 当条件表达式 <pararef name="where" /> 等于 <see langword="true" /> 时， 记录运行时日志。 </summary>
         /// <param name="this"> 实现了 <see cref="ILogWriter" /> 类型接口的对象实例。 </param>
@@ -14,13 +14,16 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// 运行时日志项。
         /// <para> <see cref="LogEntry" /> 类型的对象实例。 </para>
         /// </param>
+        /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="LogEntry" />
-        public static void IfWrite(this ILogWriter @this, bool where, LogEntry entry)
+        public static bool WriteIf(this ILogWriter @this, bool where, LogEntry entry)
         {
             if (where)
             {
                 @this.Write(entry);
             }
+
+            return where;
         }
 
         /// <summary> 当条件表达式 <pararef name="where" /> 等于 <see langword="true" /> 时， 记录运行时日志。 </summary>
@@ -31,13 +34,16 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// 运行时日志项。
         /// <para> <see cref="LogEntry{TCategory}" /> 类型的对象实例。 </para>
         /// </param>
+        /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="LogEntry{TCategory}" />
-        public static void IfWrite<TCategory>(this ILogWriter @this, bool where, LogEntry<TCategory> entry)
+        public static bool WriteIf<TCategory>(this ILogWriter @this, bool where, LogEntry<TCategory> entry)
         {
             if (where)
             {
                 @this.Write(entry);
             }
+
+            return where;
         }
 
         /// <summary> 当条件表达式 <pararef name="where" /> 等于 <see langword="true" /> 时， 记录运行时日志。 </summary>
@@ -49,13 +55,16 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// 运行时日志级别。
         /// <para> <see cref="LogLevel" /> 中的一个值。 </para>
         /// </param>
+        /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="LogLevel" />
-        public static void IfWrite(this ILogWriter @this, bool where, string message, string category = null, LogLevel level = LogLevel.Default)
+        public static bool WriteIf(this ILogWriter @this, bool where, string message, string category = null, LogLevel level = LogLevel.Default)
         {
             if (where)
             {
                 @this.Write(message, category, level);
             }
+
+            return where;
         }
 
         /// <summary> 当条件表达式 <pararef name="where" /> 等于 <see langword="true" /> 时， 记录运行时日志。 </summary>
@@ -70,14 +79,17 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// 运行时日志级别。
         /// <para> <see cref="LogLevel" /> 中的一个值。 </para>
         /// </param>
+        /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="LogLevel" />
         /// <seealso cref="Type" />
-        public static void IfWrite(this ILogWriter @this, bool where, string message, Type category = null, LogLevel level = LogLevel.Default)
+        public static bool WriteIf(this ILogWriter @this, bool where, string message, Type category = null, LogLevel level = LogLevel.Default)
         {
             if (where)
             {
                 @this.Write(message, category, level);
             }
+
+            return where;
         }
 
         /// <summary> 当条件表达式 <pararef name="where" /> 等于 <see langword="true" /> 时， 记录运行时日志。 </summary>
@@ -89,13 +101,16 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// 运行时日志级别。
         /// <para> <see cref="LogLevel" /> 中的一个值。 </para>
         /// </param>
+        /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="LogLevel" />
-        public static void IfWrite<TCategory>(this ILogWriter @this, bool where, string message, LogLevel level = LogLevel.Default)
+        public static bool WriteIf<TCategory>(this ILogWriter @this, bool where, string message, LogLevel level = LogLevel.Default)
         {
             if (where)
             {
                 @this.Write<TCategory>(message, level);
             }
+
+            return where;
         }
 
         /// <summary> 当条件表达式 <pararef name="where" /> 等于 <see langword="true" /> 时， 记录运行时异常日志。 </summary>
@@ -110,14 +125,17 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// 运行时异常级别。
         /// <para> <see cref="LogLevel" /> 中的一个值。 </para>
         /// </param>
+        /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="Exception" />
         /// <seealso cref="LogLevel" />
-        public static void IfWrite(this ILogWriter @this, bool where, Exception error, string cause = null, LogLevel level = LogLevel.Fatal)
+        public static bool WriteIf(this ILogWriter @this, bool where, Exception error, string cause = null, LogLevel level = LogLevel.Fatal)
         {
             if (where)
             {
                 @this.Write(error, cause, level);
             }
+
+            return where;
         }
 
         /// <summary> 当条件表达式 <pararef name="where" /> 等于 <see langword="true" /> 时， 记录运行时异常日志。 </summary>
@@ -133,14 +151,17 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// 运行时异常级别。
         /// <para> <see cref="LogLevel" /> 中的一个值。 </para>
         /// </param>
+        /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="Exception" />
         /// <seealso cref="LogLevel" />
-        public static void IfWrite<TCategory>(this ILogWriter @this, bool where, Exception error, string cause = null, LogLevel level = LogLevel.Fatal)
+        public static bool WriteIf<TCategory>(this ILogWriter @this, bool where, Exception error, string cause = null, LogLevel level = LogLevel.Fatal)
         {
             if (where)
             {
                 @this.Write<TCategory>(error, cause, level);
             }
+
+            return where;
         }
     }
 }
