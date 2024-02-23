@@ -2,22 +2,17 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
-    <AssemblyName>TeamFramework.Extensions.Logging.NLog</AssemblyName>
+    <AssemblyName>TeamFramework.Extensions.Logging</AssemblyName>
     <RootNamespace>Niacomsoft.TeamFramework.Extensions.Logging</RootNamespace>
-    <PackageTags>$(PackageTags); common; extensions; logging; nlog; nlog-project.org</PackageTags>
-    <Description>This library provides a way to record runtime diagnostic logs based on the NLog implementation. 此类库中提供了基于 NLog 实现的记录运行时诊断日志的方法。</Description>
+    <PackageTags>$(PackageTags); common; extensions; logging;</PackageTags>
+    <Description>This library provides extension methods for logging runtime logs, etc. 此类库提供了记录运行时日志相关的扩展方法等。</Description>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="NLog" Version="5.2.8" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
     <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
     <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
     <ProjectReference Include="..\Tfx.Extensions.Logging.Abstractions\Tfx.Extensions.Logging.Abstractions.csproj" />
-    <ProjectReference Include="..\Tfx.Extensions.Logging\Tfx.Extensions.Logging.csproj" />
   </ItemGroup>
 
 </Project>
