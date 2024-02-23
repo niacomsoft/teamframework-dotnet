@@ -8,4 +8,15 @@
     <Description>This library provides a way to record runtime diagnostic logs based on the NLog implementation. 此类库中提供了基于 NLog 实现的记录运行时诊断日志的方法。</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging.Abstractions\Tfx.Extensions.Logging.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>
