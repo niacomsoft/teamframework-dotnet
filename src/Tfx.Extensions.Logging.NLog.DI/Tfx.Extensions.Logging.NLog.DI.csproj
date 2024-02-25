@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>TeamFramework.Extensions.DependencyInjection.Logging.NLog</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.DependencyInjection</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; logging; nlog; nlog-project.org; dependency-injection</PackageTags>
+    <Description>This library provides a way to record runtime diagnostic logs based on the NLog implementation. 此类库中提供了基于 NLog 实现的记录运行时诊断日志的方法。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.DependencyInjection.Abstractions\Tfx.Extensions.DependencyInjection.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.DependencyInjection\Tfx.Extensions.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging.Abstractions\Tfx.Extensions.Logging.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging.NLog\Tfx.Extensions.Logging.NLog.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging\Tfx.Extensions.Logging.csproj" />
+  </ItemGroup>
+
+</Project>
