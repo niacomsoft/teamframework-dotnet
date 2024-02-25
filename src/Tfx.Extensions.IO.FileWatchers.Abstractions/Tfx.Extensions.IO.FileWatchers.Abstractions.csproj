@@ -13,6 +13,7 @@
     <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
     <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
     <ProjectReference Include="..\Tfx.Extensions.Logging.Abstractions\Tfx.Extensions.Logging.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging\Tfx.Extensions.Logging.csproj" />
   </ItemGroup>
 
 </Project>
