@@ -12,6 +12,6 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <para> 实现了 <see cref="ILogWriter" /> 类型接口的对象实例。 </para>
         /// </returns>
         /// <seealso cref="ILogWriter" />
-        ILogWriter Create();
+        ILogWriter CreateWriter();
     }
 }

@@ -11,6 +11,6 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public abstract ILogWriter Create();
+        public abstract ILogWriter CreateWriter();
     }
 }

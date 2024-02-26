@@ -13,13 +13,13 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
     {
         /// <inheritdoc />
         /// <seealso cref="NLogWriter" />
-        public override ILogWriter Create()
+        public override ILogWriter CreateWriter()
         {
             return new NLogWriter();
         }
 
         /// <inheritdoc />
-        public virtual NLogWriter Create(Logger logger)
+        public virtual NLogWriter CreateWriter(Logger logger)
         {
             return AssertUtilities.IsNull(logger) ? new NLogWriter() : new NLogWriter(logger);
         }

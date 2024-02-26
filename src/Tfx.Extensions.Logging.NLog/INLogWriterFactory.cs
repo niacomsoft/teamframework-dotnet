@@ -14,6 +14,6 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <returns> <see cref="NLogWriter" /> 类型的对象实例。 </returns>
         /// <seealso cref="Logger" />
         /// <seealso cref="NLogWriter" />
-        NLogWriter Create(Logger logger);
+        NLogWriter CreateWriter(Logger logger);
     }
 }
