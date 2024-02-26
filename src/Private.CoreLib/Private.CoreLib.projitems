@@ -50,7 +50,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)IContextualData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IGeneralContext.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IId.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IObservablePropertyValue.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\ByteArrayOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IO\PathString.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IServiceResolver.cs" />
@@ -61,9 +60,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Objects\IModificationTime.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Objects\IName.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Objects\IRemovedState.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyAttribute.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ObservablePropertyValue.Static.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\Internal\BuiltInResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\IResourceStringResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resources\ResourceStringResolver.cs" />
