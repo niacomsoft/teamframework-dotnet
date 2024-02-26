@@ -36,7 +36,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <seealso cref="LogLevel" />
         /// <seealso cref="LogLevel.Fatal" />
         /// <seealso cref="Type" />
-        public static bool LogFatalIf(this ILogWriter @this, bool where, string message, Type category = null)
+        public static bool LogFatalIf(this ILogWriter @this, bool where, string message, Type category)
         {
             if (where)
             {

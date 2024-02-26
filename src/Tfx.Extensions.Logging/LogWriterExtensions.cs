@@ -82,7 +82,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <returns> 参数 <paramref name="where" /> 值。 </returns>
         /// <seealso cref="LogLevel" />
         /// <seealso cref="Type" />
-        public static bool WriteIf(this ILogWriter @this, bool where, string message, Type category = null, LogLevel level = LogLevel.Default)
+        public static bool WriteIf(this ILogWriter @this, bool where, string message, Type category, LogLevel level = LogLevel.Default)
         {
             if (where)
             {

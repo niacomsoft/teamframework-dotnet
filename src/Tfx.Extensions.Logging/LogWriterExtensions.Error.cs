@@ -36,7 +36,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <seealso cref="LogLevel" />
         /// <seealso cref="LogLevel.Error" />
         /// <seealso cref="Type" />
-        public static bool LogErrorIf(this ILogWriter @this, bool where, string message, Type category = null)
+        public static bool LogErrorIf(this ILogWriter @this, bool where, string message, Type category)
         {
             if (where)
             {

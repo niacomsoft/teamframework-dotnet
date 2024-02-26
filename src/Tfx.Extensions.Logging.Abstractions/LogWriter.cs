@@ -20,7 +20,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public virtual void LogDebug(string message, Type category = null)
+        public virtual void LogDebug(string message, Type category)
         {
             Write(message, category, LogLevel.Debug);
         }
@@ -50,7 +50,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public virtual void LogError(string message, Type category = null)
+        public virtual void LogError(string message, Type category)
         {
             Write(message, category, LogLevel.Error);
         }
@@ -80,7 +80,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public virtual void LogFatal(string message, Type category = null)
+        public virtual void LogFatal(string message, Type category)
         {
             Write(message, category, LogLevel.Fatal);
         }
@@ -110,7 +110,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public virtual void LogInformation(string message, Type category = null)
+        public virtual void LogInformation(string message, Type category)
         {
             Write(message, category, LogLevel.Information);
         }
@@ -140,7 +140,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public virtual void LogTrace(string message, Type category = null)
+        public virtual void LogTrace(string message, Type category)
         {
             Write(message, category, LogLevel.Trace);
         }
@@ -170,7 +170,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public virtual void LogWarning(string message, Type category = null)
+        public virtual void LogWarning(string message, Type category)
         {
             Write(message, category, LogLevel.Warning);
         }
@@ -209,7 +209,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         }
 
         /// <inheritdoc />
-        public virtual void Write(string message, Type category = null, LogLevel level = LogLevel.Default)
+        public virtual void Write(string message, Type category, LogLevel level = LogLevel.Default)
         {
             Write(new LogEntry(message, category, level));
         }

@@ -46,7 +46,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// </param>
         /// <seealso cref="LogLevel" />
         /// <seealso cref="Type" />
-        void Write(string message, Type category = null, LogLevel level = LogLevel.Default);
+        void Write(string message, Type category, LogLevel level = LogLevel.Default);
 
         /// <summary> 记录运行时日志。 </summary>
         /// <typeparam name="TCategory"> 标识运行时日志类别的类型。 </typeparam>

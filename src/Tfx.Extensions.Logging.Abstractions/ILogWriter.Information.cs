@@ -22,7 +22,7 @@ namespace Niacomsoft.TeamFramework.Extensions.Logging
         /// <seealso cref="LogLevel" />
         /// <seealso cref="LogLevel.Information" />
         /// <seealso cref="Type" />
-        void LogInformation(string message, Type category = null);
+        void LogInformation(string message, Type category);
 
         /// <summary> 记录运行时信息日志。 </summary>
         /// <typeparam name="TCategory"> 标识运行时日志类别的类型。 </typeparam>
