@@ -33,7 +33,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\Debugger.SpecifiedFramework.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggingLevel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Diagnostics\DebuggerSymbols.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)EmitData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EmptyComparisonOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EnvironmentVariable.Async.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EnvironmentVariable.cs" />
