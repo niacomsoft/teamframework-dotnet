@@ -8,4 +8,13 @@
     <Description>This library provides a clock scheduler-based, polling file monitor. 此类库提供了基于时钟调度器的，轮询文件监控程序。</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.IO.FileWatchers.Abstractions\Tfx.Extensions.IO.FileWatchers.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging.Abstractions\Tfx.Extensions.Logging.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging\Tfx.Extensions.Logging.csproj" />
+  </ItemGroup>
+
 </Project>
