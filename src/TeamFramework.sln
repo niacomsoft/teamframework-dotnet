@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Extensions.IO.FileWatch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Extensions.IO.FileWatchers.Polling.DI.UnityContainer", "Tfx.Extensions.IO.FileWatchers.Polling.DI.UnityContainer\Tfx.Extensions.IO.FileWatchers.Polling.DI.UnityContainer.csproj", "{8427ED56-95E7-487D-AADE-071E35F02309}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfx.Extensions.Environment.Abstractions", "Tfx.Extensions.Environment.Abstractions\Tfx.Extensions.Environment.Abstractions.csproj", "{8EA30353-065A-407A-8B66-7E295B4EBF8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{8427ED56-95E7-487D-AADE-071E35F02309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8427ED56-95E7-487D-AADE-071E35F02309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8427ED56-95E7-487D-AADE-071E35F02309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA30353-065A-407A-8B66-7E295B4EBF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA30353-065A-407A-8B66-7E295B4EBF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA30353-065A-407A-8B66-7E295B4EBF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA30353-065A-407A-8B66-7E295B4EBF8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +157,7 @@ Global
 		{99EDE317-4FD1-4A45-978E-25ECD6D72BCC} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
 		{3D1C787B-4DDB-4953-AE57-C5F6AD58B40C} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
 		{8427ED56-95E7-487D-AADE-071E35F02309} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
+		{8EA30353-065A-407A-8B66-7E295B4EBF8D} = {7BA2658F-0F59-4D5C-BBF4-C83EDE34FD45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA5F6711-2336-4F2E-958D-100E3CE28B75}

@@ -1,3 +1,12 @@
 {
-  "conventionalCommits.scopes": ["CoreLib", "Common", "Core", "DependencyInjection", "Logging", "Tools", "IO"]
+  "conventionalCommits.scopes": [
+    "CoreLib",
+    "Common",
+    "Core",
+    "DependencyInjection",
+    "Logging",
+    "Tools",
+    "IO",
+    "HostingEnvironment"
+  ]
 }
