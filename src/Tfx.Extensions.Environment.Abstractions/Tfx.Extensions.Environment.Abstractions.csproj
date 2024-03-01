@@ -4,7 +4,7 @@
     <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
     <AssemblyName>TeamFramework.Extensions.Environment.Abstractions</AssemblyName>
     <RootNamespace>Niacomsoft.TeamFramework.Extensions.Configuration.Environment</RootNamespace>
-    <PackageTags>$(PackageTags); common; extensions; configuration; hosting-environment;</PackageTags>
+    <PackageTags>$(PackageTags); common; extensions; configuration; hosting-environment; abstractions;</PackageTags>
     <Description>This library provides an abstraction of methods for accessing information about the environment. 此类库提供了访问环境信息的方法抽象。</Description>
   </PropertyGroup>
 
