@@ -74,6 +74,7 @@ namespace Niacomsoft
         /// </param>
         /// <returns> 环境变量信息。 </returns>
         /// <seealso cref="EnvironmentVariableTarget" />
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "Ex0100:Member may throw undocumented exception", Justification = "<挂起>")]
         private static EnvironmentVariable InternalGetEnvironmentVar(string name, EnvironmentVariableTarget target)
         {
             var envValue = Environment.GetEnvironmentVariable(name, target);
