@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <AssemblyName>TeamFramework.Extensions.Hosting.ConfigurationManager</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.Hosting</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; hosting; environment-variable; configuration; configuration-manager;</PackageTags>
+    <Description>This library provides a way to access environment information through System.Configuration for Microsoft .NETFramework only. 此类库提供了仅适用于 “Microsoft .NET Framework”的，通过 System.Configuration 访问环境信息的方法</Description>
+  </PropertyGroup>
+
+</Project>
