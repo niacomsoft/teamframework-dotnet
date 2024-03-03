@@ -16,14 +16,14 @@ namespace Niacomsoft.TeamFramework.Extensions.Hosting
         /// 默认的托管主机环境名称。
         /// <para> 代表开发环境。 </para>
         /// </summary>
-        private const string DefaultEnvironmentName = "Development";
+        public const string DefaultEnvironmentName = "Development";
 
 #else
         /// <summary>
         /// 默认的托管主机环境名称。
         /// <para> 代表生产环境。 </para>
         /// </summary>
-        private const string DefaultEnvironmentName = "Production";
+        public const string DefaultEnvironmentName = "Production";
 #endif
 
         /// <summary> 初始化 <see cref="ManagedHostEnvironment" /> 类的新实例。 </summary>

@@ -8,4 +8,17 @@
     <Description>This library provides a way to access environment information through System.Configuration for Microsoft .NETFramework only. 此类库提供了仅适用于 “Microsoft .NET Framework”的，通过 System.Configuration 访问环境信息的方法</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.DependencyInjection.Abstractions\Tfx.Extensions.DependencyInjection.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.DependencyInjection.UnityContainer\Tfx.Extensions.DependencyInjection.UnityContainer.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Hosting.Abstractions\Tfx.Extensions.Hosting.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
 </Project>
