@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net45;</TargetFrameworks>
+    <AssemblyName>TeamFramework.Extensions.Serialization.Abstractions</AssemblyName>
+    <RootNamespace>Niacomsoft.TeamFramework.Extensions.Serialization</RootNamespace>
+    <PackageTags>$(PackageTags); common; extensions; serialization; abstractions</PackageTags>
+    <Description>This library provides abstractions of data serialization methods. 此类库提供了数据序列化方法抽象。</Description>
+  </PropertyGroup>
+
+</Project>
