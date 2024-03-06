@@ -8,4 +8,12 @@
     <Description>This library provides abstractions of data serialization methods. 此类库提供了数据序列化方法抽象。</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Tfx.Common\Tfx.Common.csproj" />
+    <ProjectReference Include="..\Tfx.Core.Abstractions\Tfx.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging.Abstractions\Tfx.Extensions.Logging.Abstractions.csproj" />
+    <ProjectReference Include="..\Tfx.Extensions.Logging\Tfx.Extensions.Logging.csproj" />
+  </ItemGroup>
+
 </Project>

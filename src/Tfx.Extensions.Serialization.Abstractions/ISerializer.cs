@@ -156,6 +156,6 @@ namespace Niacomsoft.TeamFramework.Extensions.Serialization
         /// <param name="graph"> <typeparamref name="T" /> 类型的对象实例。 </param>
         /// <returns> 字节数组。 </returns>
         /// <seealso cref="Task{TResult}" />
-        Task<T> SerializeAsync<T>(T graph) where T : class, new();
+        Task<byte[]> SerializeAsync<T>(T graph) where T : class, new();
     }
 }
