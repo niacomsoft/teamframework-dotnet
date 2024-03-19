@@ -54,6 +54,16 @@
     - 命名空间：`Niacomsoft.TeamFramework.Extensions.Logging`
     - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Logging.NLog`
     - 描述信息：This library provides methods for logging runtime. This library depends on "NLog".  此类库提供了记录运行时日志的方法。此类库依赖于 “NLog”。
+  - 主机环境抽象 (**Hosting Environment Abstractions**)
+    - 项目名称：`TFX.Extensions.HostingEnvironment.Abstractions`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Hosting`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.HostingEnvironment.Abstractions`
+    - 描述信息：This library provides interfaces and abstractions for accessing information about the host environment. 此类库提供了访问主机环境信息相关的接口、抽象方法。
+  - 主机环境信息实现 (**Microsoft .NET Hosting**)
+    - 项目名称：`TFX.Extensions.HostingEnvironment.MicrosoftHosting`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Hosting`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.HostingEnvironment`
+    - 描述信息：This library provides methods for accessing information about the host environment. This library depends on ==Microsoft.Extensions.Hosting==. 此类库提供了访问主机环境信息相关的方法。此类库依赖于 ==Microsoft.Extensions.Hosting==。
 
 
 
