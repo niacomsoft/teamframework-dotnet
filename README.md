@@ -63,7 +63,22 @@
     - 项目名称：`TFX.Extensions.HostingEnvironment.MicrosoftHosting`
     - 命名空间：`Niacomsoft.TeamFramework.Extensions.Hosting`
     - 程序集名称：`Niacomsoft.TeamFramework.Extensions.HostingEnvironment`
-    - 描述信息：This library provides methods for accessing information about the host environment. This library depends on ==Microsoft.Extensions.Hosting==. 此类库提供了访问主机环境信息相关的方法。此类库依赖于 ==Microsoft.Extensions.Hosting==。
+    - 描述信息：This library provides methods for accessing information about the host environment. This library depends on `Microsoft.Extensions.Hosting`. 此类库提供了访问主机环境信息相关的方法。此类库依赖于 `Microsoft.Extensions.Hosting`。
+  - 基于 `App.config` 的主机环境信息的实现 (**Hosting Environment Based-on Configuration**)
+    - 项目名称：`TFX.Extensions.HostingEnvironment.ConfigurationManager`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Hosting`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.HostingEnvironment.Configuration`
+    - 描述信息：This library provides a way to read host environment information from the `app.config / web.config` file. 此类库提供了从 `app.config / web.config` 文件中读取主机环境信息的方法。
+  - 数据序列化抽象 (**Data Serialization Abstractions**)
+    - 项目名称：`TFX.Extensions.Serialization.Abstractions`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Serialization`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Serialization.Abstractions`
+    - 描述信息：This library provides definitions of data serialization service interfaces and abstract methods. 此类库提供了数据序列化服务接口、抽象方法的定义。
+  - 二进制数据序列化 (**Binary Data Serialization**)
+    - 项目名称：`TFX.Extensions.Serialization.Binary`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Serialization`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Serialization.Binary`
+    - 描述信息：This library provides a binary serialization method based on `BinaryFormatter`. 此类库提供了基于 `BinaryFormatter` 的二进制序列化方法。
 
 
 
