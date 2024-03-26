@@ -113,6 +113,51 @@
     - 命名空间：`Niacomsoft.TeamFramework.Extensions.Configuration`
     - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Configuration.ConfigurationManager`
     - 描述信息：This library provides a way to access configuration files based on the "`ConfigurationManager`". 此类库提供了基于“`ConfigurationManager`”，访问配置文件的方法。
+  - 访问自定义格式的配置信息的方法 (**Customized Format Configuration**)
+    - 项目名称：`TFX.Extensions.Configuration.Specs`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Configuration`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Configuration.Specs`
+    - 描述信息：This library provides access to configuration information in JSON, Yaml, XML, and other formats. This library is only available for earlier versions of the .NET Framework. 此类库提供了访问 JSON、Yaml   、XML 等格式的配置信息的方法。它仅适用于低版本的 .NET Framework。
+  - 缓存抽象 (**Caching Abstractions**)
+    - 项目名称：`TFX.Extensions.Caching.Abstractions`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Caching`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Caching.Abstractions`
+    - 描述信息：This library provides interfaces and method abstractions for data caching. 此类库提供了数据缓存的接口、方法抽象。
+  - 基于 **StackExchange.Redis** 的访问 Redis 数据缓存的方法 (**Redis based-on StackExchange.Redis**)
+    - 项目名称：`TFX.Extensions.Caching.StackExchangeRedis`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Caching`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Caching.StackExchangeRedis`
+    - 描述信息：This library provides methods to access the Redis data cache based on "`StackExchange.Redis`". 这类库提供了基于 “`StackExchange.Redis`” 的访问 Redis 数据缓存的方法。
+  - WEB API 模型 (**WebAPI Modeling**)
+    - 项目名称：`TFX.Http.Modeling`
+    - 命名空间：`Niacomsoft.TeamFramework.Http.Models`
+    - 程序集名称：`Niacomsoft.TeamFramework.Http.Modeling`
+    - 描述信息：This library provides the basic model definition for ASP.NET WebApi. 此类库提供了 ASP.NET WebApi 的基础模型定义。
+  - 消息通信抽象 (**Messaging Communication Abstractions**)
+    - 项目名称：`TFX.Extensions.Messaging.Abstractions`
+    - 命名空间：`Niacomsoft.TeamFrmework.Extensions.Messaging`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Messaging.Abstractions`
+    - 描述信息：This library provides message communication interfaces and abstract method definitions. 此类库提供了消息通信接口、抽象方法定义。
+  - RabbitMQ 消息通信 (**Messaging for RabbitMQ**)
+    - 项目名称：`TFX.Extensions.Messaging.RabbitMQ`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Messaging.RabbitMQ`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Messaging`
+    - 描述信息：This library provides `RabbitMQ` message communication methods. 此类库提供了 `RabbitMQ`  的消息通信方法。
+  - MQTT 消息通信 (**Messaging for MQTT**)
+    - 项目名称：`TFX.Extensions.Messaging.MQTTnet` 和 `TFX.Extensions.Messaging.M2MQTT`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Messaging`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Messaging.MQTTnet` & `Niacomsoft.TeamFramework.Extensions.Messaging.M2MQTT`
+    - 描述信息：This library provides `MQTT` message communication methods. 此类库提供了 `MQTT` 的消息通信方法。
+  - ZeroMQ 消息通信 (**Messaging for ZeroMQ**)
+    - 项目名称：`TFX.Extensions.Messaging.ZeroMQ`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Messaging`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Messaging.ZeroMQ`
+    - 描述信息：This library provides `ZeroMQ (NMQ)` message communication methods. 此类库提供了 `ZeroMQ (NMQ)` 的消息通信方法。
+  - Microsoft MessageQueue (MSMQ) 消息通信 (**Messaging for MSMQ**)
+    - 项目名称：`TFX.Extensions.Messaging.MSMQ`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Messaging`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Messaging.MSMQ`
+    - 描述信息：This library provides the message communication methods for `MSMQ`. 此类库提供了 `MSMQ` 的消息通信方法。
 
 
 ## Badges
