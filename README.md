@@ -158,6 +158,51 @@
     - 命名空间：`Niacomsoft.TeamFramework.Extensions.Messaging`
     - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Messaging.MSMQ`
     - 描述信息：This library provides the message communication methods for `MSMQ`. 此类库提供了 `MSMQ` 的消息通信方法。
+  - 文件存储抽象 (**Storage Abstractions**)
+    - 项目名称：`TFX.Extensions.FileStorage.Abstractions`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.IO.Storage`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.FileStorage.Abstractions`
+    - 描述信息：This library provides interfaces and abstractions for file storage. 此类库提供了文件存储的接口、抽象方法。
+  - 本地文件存储 (**Local Storage**)
+    - 项目名称：`TFX.Extensions.FileStorage.Local`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.IO.Storage`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.FileStorage.Local`
+    - 描述信息：This library provides a way to store files on local disks. 此类库提供了本地磁盘文件存储的方法。
+  - FTP 文件存储 (**FTP Storage**)
+    - 项目名称：`TFX.Extensions.FileStorage.Ftp`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.IO.Storage`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.FileStorage.Ftp`
+    - 描述信息：This library provides FTP file storage. 此类库提供了 FTP 方式的文件存储。
+  - 对象存储抽象 (**OSS Abstractions**)
+    - 项目名称：`TFX.Extensions.FileStorage.OSS.Abstractions`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.IO.Storage`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.FileStorage.OSS.Abstractions`
+    - 描述信息：This library provides an interface and abstraction for file storage based on the "Object Storage Service". 此类库提供了基于 “对象存储服务”的文件存储接口、抽象方法。
+  - 阿里云 OSS 存储 (**Aliyun OSS**)
+    - 项目名称：`TFX.Extensions.FileStorage.AliyunOSS`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.IO.Storage`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.FileStorage.AliyunOSS`
+    - 描述信息：This library provides file storage based on `Alibaba Cloud Object Storage Service`.  此类库提供了基于 “**阿里云对象存储服务**”的文件存储。
+  - MinIO 对象存储 (**MinIO OSS**)
+    - 项目名称：`TFX.Extensions.FileStorage.Minio`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.IO.Storage`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.FileStorage.MinIO`
+    - 描述信息：This library provides file storage for "**MinIO**". 此类库提供了“**MinIO**”的文件存储。
+  - ADO.NET 数据库访问抽象 (**ADO.NET Database Access Abstractions**)
+    - 项目名称：`TFX.Extensions.Data.Abstractions`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Data`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Data.Abstractions`
+    - 描述信息：This library provides ADO.NET database access interfaces and abstractions. 此类库提供了 ADO.NET 数据库访问接口和抽象。
+  - Dapper ADO.NET 扩展 (**Dapper ADO.NET Extensions**)
+    - 项目名称：`TFX.Extensions.Data.Dapper`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Data`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Data.Dapper`
+    - 描述信息：This library provides a **Dapper ADO.NET** extensions. 此类库提供了基于 Dapper 的 ADO.NET 扩展。
+  - Microsoft SQL Server ADO.NET 数据库访问 (**ADO.NET for SQL Server**)
+    - 项目名称：`TFX.Extensions.Data.SqlClient`
+    - 命名空间：`Niacomsoft.TeamFramework.Extensions.Data.SqlClient`
+    - 程序集名称：`Niacomsoft.TeamFramework.Extensions.Data.SqlServer`
+    - 描述信息：This library provides methods for **Microsoft SQL Server**. 此类库提供了 Microsoft SQL Server 数据库访问的 ADO.NET 方法。
 
 
 ## Badges
